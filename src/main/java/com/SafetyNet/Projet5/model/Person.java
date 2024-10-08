@@ -1,21 +1,11 @@
 package com.SafetyNet.Projet5.model;
 
-import jakarta.persistence.*;
-import lombok.Data;
-
-
-@Data
-@Entity
-@Table(name = "persons")
-
 
 public class Person {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private String firstname;
+    private String firstName;
 
-    private String lastname;
+    private String lastName;
 
     private String address;
 
@@ -23,5 +13,86 @@ public class Person {
 
     private int zip;
 
+    private String phone;
 
+    private String email;
+
+    public Person() {
+    }
+
+    public Person(String firstname, String lastname, String address, String city, int zip) {
+        this.firstName = firstname;
+        this.lastName = lastname;
+        this.address = address;
+        this.city = city;
+        this.zip = zip;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public int getZip() {
+        return zip;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+    public void setZip(int zip) {
+        this.zip = zip;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "firstname='" + firstName + '\'' +
+                ", lastname='" + lastName + '\'' +
+                ", address='" + address + '\'' +
+                ", city='" + city + '\'' +
+                ", zip=" + zip +
+                '}';
+
+    }
 }
