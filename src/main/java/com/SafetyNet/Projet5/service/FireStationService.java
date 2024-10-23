@@ -16,20 +16,27 @@ public class FireStationService {
     @Autowired
     private FireStationRepository fireStationRepository;
 
-    public Optional<FireStation> getFireStation(final String adress){
-        return fireStationRepository.findByAdress(adress);
+    public FireStationService(FireStationRepository fireStationRepository){
+        this.fireStationRepository = fireStationRepository;
     }
 
-    public List<FireStation> getFirestation() throws IOException{
+    public FireStation getByAddress(final String address){
+        return fireStationRepository.findByAddress(address).orElse(null);
+    }
+
+    public List<FireStation> getAll() {
         return fireStationRepository.findAll();
     }
 
-    public void deleteFireStation(final String adress) {
-        fireStationRepository.deleteByAdress(adress);
+    public void deleteByAddress(final String address) {
+        fireStationRepository.deleteByAddress(address);
     }
 
-    public FireStation saveFireStation(FireStation fireStation) {
-        FireStation savedFireStation = fireStationRepository.save(fireStation);
-        return savedFireStation;
+    public FireStation save(FireStation fireStation) {
+        return fireStationRepository.save(fireStation);
+
     }
+
+
+
 }

@@ -19,9 +19,9 @@ public class MedicalRecordRepository {
         this.medicalRecords = dataReaderUtil.getMedicalrecords();
     }
 
-    public Optional<MedicalRecord> findByBirthdate(String birthdate){
+    public Optional<MedicalRecord> findByMedicalRecordName(String medicalRecordName){
         return medicalRecords.stream()
-                .filter(medicalRecord -> medicalRecord.getBirthdate().equals(birthdate))
+                .filter(medicalRecord -> medicalRecord.getLastName().equals(medicalRecordName))
                 .findFirst();
     }
 
@@ -29,10 +29,14 @@ public class MedicalRecordRepository {
         return medicalRecords;
     }
 
-    public void deleteByBirthdate(String birthdate){
+    public void deleteByMedicalRecordName(String medicalRecordName){
+        medicalRecords = medicalRecords.stream()
+                .filter(medicalRecord -> !(medicalRecord.getFirstName()+medicalRecord.getLastName()).equals(medicalRecordName))
+                .toList();
     }
 
     public MedicalRecord save(MedicalRecord medicalRecord){
-        return null;
+        medicalRecords.add(medicalRecord);
+        return medicalRecord;
     }
 }

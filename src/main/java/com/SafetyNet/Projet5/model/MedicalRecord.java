@@ -10,6 +10,7 @@ public class MedicalRecord {
     private String birthdate;
     private List <String> medications;
     private List <String> allergies;
+    private String medicalRecordName;
 
     public MedicalRecord() {
     }
@@ -20,6 +21,15 @@ public class MedicalRecord {
         this.birthdate = birthDate;
         this.medications = medications;
         this.allergies = allergies;
+        this.medicalRecordName = firstName + lastName;
+    }
+
+    public String getMedicalRecordName() {
+        return medicalRecordName;
+    }
+
+    public void setMedicalRecordName(String medicalRecordName) {
+        this.medicalRecordName = medicalRecordName;
     }
 
     public String getFirstName() {
@@ -67,9 +77,11 @@ public class MedicalRecord {
         return "MedicalRecord{" +
                 "firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
-                ", birthDate=" + birthdate +
-                ", medications='" + medications + '\'' +
-                ", allergies='" + allergies + '\'' +
+                ", birthdate='" + birthdate + '\'' +
+                ", medications=" + medications +
+                ", allergies=" + allergies +
+                ", medicalRecordName='" + medicalRecordName + '\'' +
                 '}';
     }
+
 }

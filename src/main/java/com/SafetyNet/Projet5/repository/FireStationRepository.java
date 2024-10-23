@@ -20,9 +20,9 @@ public class FireStationRepository {
         this.fireStations = dataReaderUtil.getFirestations();
     }
 
-    public Optional<FireStation> findByAdress(String adress){
+    public Optional<FireStation> findByAddress(String address){
         return fireStations.stream()
-                .filter(fireStation -> fireStation.getAddress().equals(adress))
+                .filter(fireStation -> fireStation.getAddress().equals(address))
                 .findFirst();
     }
 
@@ -30,11 +30,15 @@ public class FireStationRepository {
         return fireStations;
     }
 
-    public void deleteByAdress(String adress){
+    public void deleteByAddress(String address){
+        fireStations = fireStations.stream()
+                    .filter(fireStation -> !fireStation.getAddress().equals(address))
+                    .toList();
     }
 
     public FireStation save(FireStation fireStation){
-        return null;
+        fireStations.add(fireStation);
+        return fireStation;
     }
 
 }

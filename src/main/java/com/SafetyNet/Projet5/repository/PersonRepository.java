@@ -1,7 +1,6 @@
 package com.SafetyNet.Projet5.repository;
 
 
-import com.SafetyNet.Projet5.model.DataJson;
 import com.SafetyNet.Projet5.model.Person;
 import com.SafetyNet.Projet5.util.DataReaderUtil;
 import org.springframework.stereotype.Repository;
@@ -21,21 +20,26 @@ public class PersonRepository {
         this.persons = dataReaderUtil.getPersons();
     }
 
-    public Optional<Person> findByEmail(String email){
+    public Optional<Person> findByName(String name){
         return persons.stream()
-                .filter(person -> person.getEmail().equals(email))
+                .filter(person -> (person.getFirstName()+person.getLastName()).equals(name))
                 .findFirst();
     }
 
-    public List<Person> findAll() throws IOException {
+    public List<Person> findAll()  {
         return persons;
     }
 
-    public void deleteByEmail(String email){
+    public void deleteByName(String name){
+        persons = persons.stream()
+                .filter(person -> !(person.getFirstName()+person.getLastName()).equals(name))
+                .toList();
+
 
     }
 
     public Person save(Person person){
-        return null;
+        persons.add(person);
+        return person;
     }
 }
