@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.text.ParseException;
+
 @RestController
 @RequestMapping
 public class GlobalController {
@@ -19,7 +21,7 @@ public class GlobalController {
     }
 
     @GetMapping("/firestation/{stationNumber}")
-    public ListPersonFireStationDTO personsFireStationByStationNumber (@PathVariable String stationNumber){
+    public ListPersonFireStationDTO personsFireStationByStationNumber (@PathVariable String stationNumber) {
         return globalService.personsFireStationByStationNumber(stationNumber);
     }
 

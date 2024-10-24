@@ -21,7 +21,7 @@ public class MedicalRecordRepository {
 
     public Optional<MedicalRecord> findByMedicalRecordName(String medicalRecordName){
         return medicalRecords.stream()
-                .filter(medicalRecord -> medicalRecord.getLastName().equals(medicalRecordName))
+                .filter(medicalRecord -> (medicalRecord.getFirstName()+medicalRecord.getLastName()).equals(medicalRecordName))
                 .findFirst();
     }
 
