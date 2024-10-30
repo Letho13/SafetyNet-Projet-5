@@ -2,12 +2,14 @@ package com.SafetyNet.Projet5.controller;
 
 import com.SafetyNet.Projet5.model.MedicalRecord;
 import com.SafetyNet.Projet5.service.GlobalService;
+import com.SafetyNet.Projet5.service.dto.ListChildAlertDTO;
 import com.SafetyNet.Projet5.service.dto.ListPersonFireStationDTO;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.net.URLEncoder;
 import java.text.ParseException;
 
 @RestController
@@ -24,5 +26,12 @@ public class GlobalController {
     public ListPersonFireStationDTO personsFireStationByStationNumber (@PathVariable String stationNumber) {
         return globalService.personsFireStationByStationNumber(stationNumber);
     }
+
+    @GetMapping( "/childAlert/{address}")
+     public ListChildAlertDTO childAlertByAddress (@PathVariable String address) {
+        return globalService.childAlertByAddress(address);
+    }
+
+
 
 }

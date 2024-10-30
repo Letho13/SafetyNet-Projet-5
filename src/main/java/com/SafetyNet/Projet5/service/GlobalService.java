@@ -6,7 +6,9 @@ import com.SafetyNet.Projet5.model.Person;
 import com.SafetyNet.Projet5.repository.FireStationRepository;
 import com.SafetyNet.Projet5.repository.MedicalRecordRepository;
 import com.SafetyNet.Projet5.repository.PersonRepository;
+import com.SafetyNet.Projet5.service.dto.ListChildAlertDTO;
 import com.SafetyNet.Projet5.service.dto.ListPersonFireStationDTO;
+import com.SafetyNet.Projet5.service.dto.PersonChildAlertDTO;
 import com.SafetyNet.Projet5.service.dto.PersonFireStationDTO;
 import org.jetbrains.annotations.NotNull;
 import org.springframework.stereotype.Service;
@@ -26,7 +28,8 @@ public class GlobalService {
     private final FireStationRepository fireStationRepository;
     private final MedicalRecordRepository medicalRecordRepository;
 
-    int majorite = 18;
+    private final int MAJORITY = 18;
+
 
     public GlobalService(PersonRepository personRepository, FireStationRepository fireStationRepository, MedicalRecordRepository medicalRecordRepository) {
         this.personRepository = personRepository;
@@ -41,18 +44,13 @@ public class GlobalService {
         List<FireStation> fireStations = fireStationRepository.findAll();
         List<Person> persons = personRepository.findAll();
 
-        Set<String> addresses = fireStations.stream()
-                .filter(fireStation -> fireStation.getStation().equals(stationNumber))
-                .map(FireStation::getAddress)
-                .collect(Collectors.toSet());
+        Set<String> addresses = fireStations.stream().filter(fireStation -> fireStation.getStation().equals(stationNumber)).map(FireStation::getAddress).collect(Collectors.toSet());
 
         listPersonFireStationDTO.setPersonFireStationDTOList(new ArrayList<>());
         List<Person> peopleListFinded = new ArrayList<>();
 
         for (String address : addresses) {
-            peopleListFinded.addAll(persons.stream()
-                    .filter(person -> person.getAddress().equals(address))
-                    .collect(Collectors.toSet()));
+            peopleListFinded.addAll(persons.stream().filter(person -> person.getAddress().equals(address)).collect(Collectors.toSet()));
         }
 
         for (Person person : peopleListFinded) {
@@ -81,14 +79,8 @@ public class GlobalService {
 
         for (Person person : persons) {
             for (MedicalRecord medicalRecord : medicalRecords) {
-                if ((person.getFirstName() + person.getLastName()).equals(medicalRecord.getFirstName() + medicalRecord.getLastName())) {
-                    String birthdateAconvertir = medicalRecord.getBirthdate();
-                    DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM/dd/yyyy");
-                    LocalDate birthdate = LocalDate.parse(birthdateAconvertir, formatter);
-
-                    if (calculateAge(birthdate) > majorite) {
-                        result++;
-                    }
+                if (person.getFullName().equals(medicalRecord.getFullName()) && medicalRecord.getAge() > MAJORITY) {
+                    result++;
                 }
             }
         }
@@ -100,13 +92,59 @@ public class GlobalService {
         return nombreDePersonnes - nombreAdultes;
     }
 
-    public static int calculateAge(LocalDate birthDate) {
-        LocalDate currentDate = LocalDate.now();
-        if (birthDate != null) {
-            return Period.between(birthDate, currentDate).getYears();
-        } else {
-            return 0;
+
+    public ListChildAlertDTO childAlertByAddress(String address) {
+
+        ListChildAlertDTO listChildAlertDTO = new ListChildAlertDTO();
+        List<Person> persons = personRepository.findAll();
+        List<MedicalRecord> medicalRecords = medicalRecordRepository.findAll();
+
+
+        List<Person> personByAddress = persons.stream()
+                .filter(person -> person.getAddress().equals(address))
+                .toList();
+
+        List<MedicalRecord> medicalRecordMatching = medicalRecords.stream()
+                .filter(medicalRecord -> personByAddress.stream()
+                        .map(person -> person.getFullName())
+                        .toList()
+                        .contains(medicalRecord.getFullName()))
+                .toList();
+
+        List<MedicalRecord> childMedicalRecord = medicalRecordMatching.stream()
+                .filter(medicalRecord -> medicalRecord.getAge() <= MAJORITY)
+                .toList();
+
+        List<MedicalRecord> otherMedicalRecord = medicalRecordMatching.stream()
+                .filter(medicalRecord -> medicalRecord.getAge() > MAJORITY)
+                .toList();
+
+        for (MedicalRecord medicalRecord : childMedicalRecord) {
+            PersonChildAlertDTO personChildAlertDTO = new PersonChildAlertDTO();
+            personChildAlertDTO.setFirstName(medicalRecord.getFirstName());
+            personChildAlertDTO.setLastName(medicalRecord.getLastName());
+            personChildAlertDTO.setAge(medicalRecord.getAge());
+
+            System.out.println("childAlertDTOS is null: " + (listChildAlertDTO.getChildAlertDTOS() == null));
+
+            listChildAlertDTO.getChildAlertDTOS().add(personChildAlertDTO);
         }
+
+        List<Person> otherMembers = new ArrayList<>();
+
+        for (MedicalRecord medicalRecord : otherMedicalRecord) {
+            Person person = new Person();
+            person.setFirstName(medicalRecord.getFirstName());
+            person.setLastName(medicalRecord.getLastName());
+            person.setFirstName(medicalRecord.getFirstName());
+            otherMembers.add(person);
+
+        }
+
+        listChildAlertDTO.setOtherMember(otherMembers);
+        return listChildAlertDTO;
+
+
     }
 
 

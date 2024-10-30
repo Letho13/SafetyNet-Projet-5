@@ -1,6 +1,8 @@
 package com.SafetyNet.Projet5.model;
 
 import java.time.LocalDate;
+import java.time.Period;
+import java.time.format.DateTimeFormatter;
 import java.util.Date;
 import java.util.List;
 
@@ -9,28 +11,19 @@ public class MedicalRecord {
     private String firstName;
     private String lastName;
     private String birthdate;
-    private List <String> medications;
-    private List <String> allergies;
-    private String medicalRecordName;
+    private List<String> medications;
+    private List<String> allergies;
 
     public MedicalRecord() {
     }
 
-    public MedicalRecord(String firstName, String lastName, String birthDate, List <String> medications, List <String> allergies) {
+    public MedicalRecord(String firstName, String lastName, String birthDate, List<String> medications, List<String> allergies) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.birthdate = birthDate;
         this.medications = medications;
         this.allergies = allergies;
-        this.medicalRecordName = firstName + lastName;
-    }
 
-    public String getMedicalRecordName() {
-        return medicalRecordName;
-    }
-
-    public void setMedicalRecordName(String medicalRecordName) {
-        this.medicalRecordName = medicalRecordName;
     }
 
     public String getFirstName() {
@@ -81,8 +74,19 @@ public class MedicalRecord {
                 ", birthdate='" + birthdate + '\'' +
                 ", medications=" + medications +
                 ", allergies=" + allergies +
-                ", medicalRecordName='" + medicalRecordName + '\'' +
                 '}';
     }
+
+    public String getFullName() {
+        return getFirstName() + " " + getLastName();
+    }
+
+    public int getAge() {
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM/dd/yyyy");
+        LocalDate birthdate = LocalDate.parse(getBirthdate(), formatter);
+        LocalDate currentDate = LocalDate.now();
+        return Period.between(birthdate, currentDate).getYears();
+    }
+
 
 }

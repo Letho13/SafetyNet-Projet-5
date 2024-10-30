@@ -5,9 +5,10 @@ import java.util.List;
 
 public class ListPersonFireStationDTO {
 
-    private List<PersonFireStationDTO> personFireStationDTOList;
     private int nombreAdultes;
     private int nombreEnfants;
+    private List<PersonFireStationDTO> personFireStationDTOList;
+
 
     public ListPersonFireStationDTO() {
     }
