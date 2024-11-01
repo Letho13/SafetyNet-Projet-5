@@ -2,7 +2,6 @@ package com.SafetyNet.Projet5.service.dto;
 
 import com.SafetyNet.Projet5.model.Person;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class ListChildAlertDTO {
@@ -12,8 +11,7 @@ public class ListChildAlertDTO {
     private List<Person> otherMember;
 
     public ListChildAlertDTO() {
-        this.childAlertDTOS = new ArrayList<>();
-        this.otherMember = new ArrayList<>();
+
     }
 
     public ListChildAlertDTO(List<PersonChildAlertDTO> childAlertDTOS, List<Person> otherMember) {

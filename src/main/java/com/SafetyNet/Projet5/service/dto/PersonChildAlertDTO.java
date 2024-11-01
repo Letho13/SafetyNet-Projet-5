@@ -1,9 +1,5 @@
 package com.SafetyNet.Projet5.service.dto;
 
-import com.SafetyNet.Projet5.model.Person;
-
-import java.util.List;
-
 public class PersonChildAlertDTO {
 
     private String firstName;

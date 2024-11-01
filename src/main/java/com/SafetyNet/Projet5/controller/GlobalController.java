@@ -1,16 +1,10 @@
 package com.SafetyNet.Projet5.controller;
 
-import com.SafetyNet.Projet5.model.MedicalRecord;
 import com.SafetyNet.Projet5.service.GlobalService;
-import com.SafetyNet.Projet5.service.dto.ListChildAlertDTO;
-import com.SafetyNet.Projet5.service.dto.ListPersonFireStationDTO;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import com.SafetyNet.Projet5.service.dto.*;
+import org.springframework.web.bind.annotation.*;
 
-import java.net.URLEncoder;
-import java.text.ParseException;
+import java.util.List;
 
 @RestController
 @RequestMapping
@@ -32,6 +26,29 @@ public class GlobalController {
         return globalService.childAlertByAddress(address);
     }
 
+    @GetMapping( "/phoneAlert/{stationNumber}")
+    public ListPersonPhoneAlertByFireStationDTO phoneNumberByFireStationStationNumber (@PathVariable String stationNumber) {
+        return globalService.phoneNumberByFireStationStationNumber(stationNumber);
+    }
 
+    @GetMapping( "/fire/{address}")
+    public ListPersonFireByAddressDTO personByAddressWithMedicalRecord (@PathVariable String address) {
+        return globalService.personByAddressWithMedicalRecord(address);
+    }
+
+    @GetMapping("/flood/stations")
+    public ListPersonFloodStationSortByAddressDTO personByStationNumberSortedByAddress (@RequestParam List<String> stations){
+        return globalService.personByStationNumberSortedByAddress(stations);
+    }
+
+    @GetMapping( "/personInfolastName/{lastName}")
+    public ListPersonInfoByLastNameDTO personInfoEachHabitant (@PathVariable String lastName) {
+        return globalService.personInfoEachHabitant(lastName);
+    }
+
+    @GetMapping( "/CommunityEmail/city")
+    public List<String> PersonEmailByCity (@RequestParam String city) {
+        return globalService.PersonEmailByCity(city);
+    }
 
 }

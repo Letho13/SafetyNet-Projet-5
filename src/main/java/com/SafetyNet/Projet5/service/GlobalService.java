@@ -6,20 +6,16 @@ import com.SafetyNet.Projet5.model.Person;
 import com.SafetyNet.Projet5.repository.FireStationRepository;
 import com.SafetyNet.Projet5.repository.MedicalRecordRepository;
 import com.SafetyNet.Projet5.repository.PersonRepository;
-import com.SafetyNet.Projet5.service.dto.ListChildAlertDTO;
-import com.SafetyNet.Projet5.service.dto.ListPersonFireStationDTO;
-import com.SafetyNet.Projet5.service.dto.PersonChildAlertDTO;
-import com.SafetyNet.Projet5.service.dto.PersonFireStationDTO;
+import com.SafetyNet.Projet5.service.dto.*;
 import org.jetbrains.annotations.NotNull;
 import org.springframework.stereotype.Service;
 
-import java.time.LocalDate;
-import java.time.Period;
-import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
+
 
 @Service
 public class GlobalService {
@@ -99,6 +95,8 @@ public class GlobalService {
         List<Person> persons = personRepository.findAll();
         List<MedicalRecord> medicalRecords = medicalRecordRepository.findAll();
 
+        listChildAlertDTO.setChildAlertDTOS(new ArrayList<>());
+
 
         List<Person> personByAddress = persons.stream()
                 .filter(person -> person.getAddress().equals(address))
@@ -125,8 +123,6 @@ public class GlobalService {
             personChildAlertDTO.setLastName(medicalRecord.getLastName());
             personChildAlertDTO.setAge(medicalRecord.getAge());
 
-            System.out.println("childAlertDTOS is null: " + (listChildAlertDTO.getChildAlertDTOS() == null));
-
             listChildAlertDTO.getChildAlertDTOS().add(personChildAlertDTO);
         }
 
@@ -138,15 +134,172 @@ public class GlobalService {
             person.setLastName(medicalRecord.getLastName());
             person.setFirstName(medicalRecord.getFirstName());
             otherMembers.add(person);
-
         }
 
         listChildAlertDTO.setOtherMember(otherMembers);
         return listChildAlertDTO;
 
+    }
+
+    public ListPersonPhoneAlertByFireStationDTO phoneNumberByFireStationStationNumber(String stationNumber) {
+
+        ListPersonPhoneAlertByFireStationDTO listPersonPhoneAlertByFireStationDTO = new ListPersonPhoneAlertByFireStationDTO();
+        List<FireStation> fireStations = fireStationRepository.findAll();
+        List<Person> persons = personRepository.findAll();
+        listPersonPhoneAlertByFireStationDTO.setPhoneNumberFireStationDTOList(new ArrayList<>());
+
+        Set<String> addresses = fireStations.stream().filter(fireStation -> fireStation.getStation().equals(stationNumber)).map(FireStation::getAddress).collect(Collectors.toSet());
+
+        List<Person> phoneListFinded = new ArrayList<>();
+
+        for (String address : addresses) {
+            phoneListFinded.addAll(persons.stream().filter(person -> person.getAddress().equals(address)).collect(Collectors.toSet()));
+        }
+
+        for (Person person : phoneListFinded) {
+            PersonPhoneAlertByFireStationDTO personPhoneAlertByFireStationDTO = new PersonPhoneAlertByFireStationDTO();
+            personPhoneAlertByFireStationDTO.setPhone(person.getPhone());
+            listPersonPhoneAlertByFireStationDTO.getPhoneNumberFireStationDTOList().add(personPhoneAlertByFireStationDTO);
+        }
+
+        return listPersonPhoneAlertByFireStationDTO;
 
     }
 
+    public ListPersonFireByAddressDTO personByAddressWithMedicalRecord(String address) {
+
+        ListPersonFireByAddressDTO listPersonFireByAddressDTO = new ListPersonFireByAddressDTO();
+        listPersonFireByAddressDTO.setPersonFireAddressMedicalRecordDTOList(new ArrayList<>());
+
+        List<Person> persons = personRepository.findAll();
+        List<MedicalRecord> medicalRecords = medicalRecordRepository.findAll();
+        List<FireStation> fireStations = fireStationRepository.findAll();
+
+        List<Person> personByAddress = persons.stream()
+                .filter(person -> person.getAddress().equals(address))
+                .toList();
+
+        for (MedicalRecord medicalRecord : medicalRecords) {
+            Person matchingPerson = personByAddress.stream()
+                    .filter(person -> person.getFullName().equals(medicalRecord.getFullName()))
+                    .findFirst()
+                    .orElse(null);
+
+            if (matchingPerson != null) {
+                PersonFireByAddressDTO personFireByAddressDTO = new PersonFireByAddressDTO();
+                personFireByAddressDTO.setLastName(medicalRecord.getLastName());
+                personFireByAddressDTO.setAge(medicalRecord.getAge());
+                personFireByAddressDTO.setAllergies(medicalRecord.getAllergies());
+                personFireByAddressDTO.setMedications(medicalRecord.getMedications());
+                personFireByAddressDTO.setPhone(matchingPerson.getPhone());
+
+                listPersonFireByAddressDTO.getPersonFireAddressMedicalRecordDTOList().add(personFireByAddressDTO);
+            }
+        }
+
+        String fireStationsFindStationByAddress = fireStations.stream()
+                .filter(fireStation -> personByAddress.stream()
+                        .anyMatch(person -> person.getAddress().equals(fireStation.getAddress())))
+                .map(fireStation -> fireStation.getStation())
+                .findFirst()
+                .orElse(null);
+
+
+        listPersonFireByAddressDTO.setStation(fireStationsFindStationByAddress);
+
+        return listPersonFireByAddressDTO;
+    }
+
+    public ListPersonFloodStationSortByAddressDTO personByStationNumberSortedByAddress(List<String> stations) {
+
+        ListPersonFloodStationSortByAddressDTO listPersonFloodStationSortByAddressDTO = new ListPersonFloodStationSortByAddressDTO();
+        listPersonFloodStationSortByAddressDTO.setPersonSortByAddressByStationNumberDTOList(new ArrayList<>());
+        List<Person> persons = personRepository.findAll();
+        List<MedicalRecord> medicalRecords = medicalRecordRepository.findAll();
+        List<FireStation> fireStations = fireStationRepository.findAll();
+
+
+        List<String> addresses = fireStations.stream()
+                .filter(fireStation -> stations.contains(fireStation.getStation()))
+                .map(FireStation::getAddress)
+                .toList();
+
+        List<Person> personByStationNumber = persons.stream()
+                .filter(person -> addresses.contains(person.getAddress()))
+                .toList();
+
+        for (MedicalRecord medicalRecord : medicalRecords) {
+            Person matchingPerson = personByStationNumber.stream()
+                    .filter(person -> person.getFullName().equals(medicalRecord.getFullName()))
+                    .findFirst()
+                    .orElse(null);
+
+            if (matchingPerson != null) {
+                PersonFloodStationSortByAddressDTO personFloodStationSortByAddressDTO = new PersonFloodStationSortByAddressDTO();
+                personFloodStationSortByAddressDTO.setFirstName(medicalRecord.getFirstName());
+                personFloodStationSortByAddressDTO.setLastName(medicalRecord.getLastName());
+                personFloodStationSortByAddressDTO.setAge(medicalRecord.getAge());
+                personFloodStationSortByAddressDTO.setAllergies(medicalRecord.getAllergies());
+                personFloodStationSortByAddressDTO.setMedications(medicalRecord.getMedications());
+                personFloodStationSortByAddressDTO.setPhone(matchingPerson.getPhone());
+                personFloodStationSortByAddressDTO.setAddress(matchingPerson.getAddress());
+
+                listPersonFloodStationSortByAddressDTO.getPersonSortByAddressByStationNumberDTOList().add(personFloodStationSortByAddressDTO);
+            }
+        }
+        listPersonFloodStationSortByAddressDTO.getPersonSortByAddressByStationNumberDTOList()
+                .sort(Comparator.comparing(PersonFloodStationSortByAddressDTO::getAddress));
+
+        return listPersonFloodStationSortByAddressDTO;
+    }
+
+    public ListPersonInfoByLastNameDTO personInfoEachHabitant(String lastName) {
+
+        ListPersonInfoByLastNameDTO listPersonInfoByLastNameDTO = new ListPersonInfoByLastNameDTO();
+        listPersonInfoByLastNameDTO.setPersonNameByLastNameDTOList(new ArrayList<>());
+
+        List<Person> persons = personRepository.findAll();
+        List<MedicalRecord> medicalRecords = medicalRecordRepository.findAll();
+
+        List<Person> personByLastName = persons.stream()
+                .filter(person -> lastName.contains(person.getLastName()))
+                .toList();
+
+        for (MedicalRecord medicalRecord : medicalRecords) {
+            Person matchingPerson = personByLastName.stream()
+                    .filter(person -> person.getFullName().equals(medicalRecord.getFullName()))
+                    .findFirst()
+                    .orElse(null);
+
+            if (matchingPerson != null) {
+                PersonInfoByLastNameDTO personInfoByLastNameDTO = new PersonInfoByLastNameDTO();
+                personInfoByLastNameDTO.setLastName(medicalRecord.getLastName());
+                personInfoByLastNameDTO.setFirstName(medicalRecord.getFirstName());
+                personInfoByLastNameDTO.setAddress(matchingPerson.getAddress());
+                personInfoByLastNameDTO.setAge(medicalRecord.getAge());
+                personInfoByLastNameDTO.setEmail(matchingPerson.getEmail());
+                personInfoByLastNameDTO.setMedications(medicalRecord.getMedications());
+                personInfoByLastNameDTO.setAllergies(medicalRecord.getAllergies());
+
+                listPersonInfoByLastNameDTO.getPersonNameByLastNameDTOList().add(personInfoByLastNameDTO);
+            }
+
+        }
+
+        return listPersonInfoByLastNameDTO;
+    }
+
+    public List<String> PersonEmailByCity(String city) {
+
+        List<Person> persons = personRepository.findAll();
+
+        List<String> listpersonEmailByCity = persons.stream()
+                .filter(person -> person.getCity().equals(city))
+                .map(Person::getEmail)
+                .toList();
+
+        return listpersonEmailByCity;
+}
 
 }
 
