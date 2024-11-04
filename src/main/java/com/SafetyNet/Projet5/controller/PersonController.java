@@ -1,7 +1,6 @@
 package com.SafetyNet.Projet5.controller;
 
 import com.SafetyNet.Projet5.model.Person;
-import com.SafetyNet.Projet5.repository.PersonRepository;
 import com.SafetyNet.Projet5.service.PersonService;
 import org.springframework.web.bind.annotation.*;
 
@@ -13,7 +12,6 @@ import java.util.List;
 public class PersonController {
 
     private final PersonService personService;
-
 
     public PersonController(PersonService personService) {
         this.personService = personService;

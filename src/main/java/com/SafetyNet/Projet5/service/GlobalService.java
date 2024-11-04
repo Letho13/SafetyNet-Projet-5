@@ -26,12 +26,10 @@ public class GlobalService {
 
     private final int MAJORITY = 18;
 
-
     public GlobalService(PersonRepository personRepository, FireStationRepository fireStationRepository, MedicalRecordRepository medicalRecordRepository) {
         this.personRepository = personRepository;
         this.fireStationRepository = fireStationRepository;
         this.medicalRecordRepository = medicalRecordRepository;
-
     }
 
     public ListPersonFireStationDTO personsFireStationByStationNumber(String stationNumber) {
@@ -56,7 +54,6 @@ public class GlobalService {
             personFireStationDTO.setAddress(person.getAddress());
             personFireStationDTO.setPhone(person.getPhone());
 
-
             listPersonFireStationDTO.getPersonFireStationDTOList().add(personFireStationDTO);
         }
 
@@ -64,7 +61,6 @@ public class GlobalService {
         listPersonFireStationDTO.setNombreEnfants(nombreEnfants(listPersonFireStationDTO.getNombreAdultes(), peopleListFinded.size()));
 
         return listPersonFireStationDTO;
-
     }
 
     private int nombreAdultes(@NotNull List<Person> persons) {
@@ -87,7 +83,6 @@ public class GlobalService {
 
         return nombreDePersonnes - nombreAdultes;
     }
-
 
     public ListChildAlertDTO childAlertByAddress(String address) {
 

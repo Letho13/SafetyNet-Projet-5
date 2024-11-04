@@ -1,9 +1,7 @@
 package com.SafetyNet.Projet5.controller;
 
 import com.SafetyNet.Projet5.model.FireStation;
-import com.SafetyNet.Projet5.repository.FireStationRepository;
 import com.SafetyNet.Projet5.service.FireStationService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
@@ -13,9 +11,7 @@ import java.util.List;
 @RequestMapping("/fireStations")
 public class FireStationController {
 
-
     private final FireStationService fireStationService;
-
 
     public FireStationController(FireStationService fireStationService) {
         this.fireStationService = fireStationService;

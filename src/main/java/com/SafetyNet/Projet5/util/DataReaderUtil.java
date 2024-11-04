@@ -13,8 +13,7 @@ import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 
 public class DataReaderUtil {
 
-    private String URL_PATH = "C:\\DEV\\Repo\\Projet5\\src\\main\\resources\\data.json";
-
+    private final String URL_PATH = "C:\\DEV\\Repo\\Projet5\\src\\main\\resources\\data.json";
 
     public List<Person> getPersons() throws IOException {
         System.out.println(readDataJson().getPersons());
