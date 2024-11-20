@@ -1,10 +1,13 @@
 package com.SafetyNet.Projet5.model;
 
+
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 import java.time.LocalDate;
 import java.time.Period;
 import java.time.format.DateTimeFormatter;
-import java.util.Date;
 import java.util.List;
+
 
 public class MedicalRecord {
 
@@ -17,10 +20,10 @@ public class MedicalRecord {
     public MedicalRecord() {
     }
 
-    public MedicalRecord(String firstName, String lastName, String birthDate, List<String> medications, List<String> allergies) {
+    public MedicalRecord(String firstName, String lastName, String birthdate, List<String> medications, List<String> allergies) {
         this.firstName = firstName;
         this.lastName = lastName;
-        this.birthdate = birthDate;
+        this.birthdate = birthdate;
         this.medications = medications;
         this.allergies = allergies;
 
