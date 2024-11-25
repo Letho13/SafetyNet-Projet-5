@@ -1,14 +1,9 @@
 package com.SafetyNet.Projet5.Controller;
 
 import com.SafetyNet.Projet5.controller.FireStationController;
-import com.SafetyNet.Projet5.controller.PersonController;
 import com.SafetyNet.Projet5.model.FireStation;
-import com.SafetyNet.Projet5.model.Person;
-import com.SafetyNet.Projet5.repository.FireStationRepository;
-import com.SafetyNet.Projet5.repository.PersonRepository;
 import com.SafetyNet.Projet5.service.FireStationService;
-import com.SafetyNet.Projet5.service.PersonService;
-import org.junit.jupiter.api.Disabled;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,10 +15,7 @@ import org.springframework.test.web.servlet.MockMvc;
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.ArgumentMatchers.any;
-
-import static org.mockito.ArgumentMatchers.refEq;
 import static org.mockito.Mockito.*;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
@@ -40,11 +32,11 @@ public class FireStationControllerTest {
     @MockBean
     private FireStationService fireStationService;
 
-    @MockBean
-    private FireStationRepository fireStationRepository;
+    @Autowired
+    ObjectMapper objectMapper;
 
     @Test
-    public void testGetAllStation() throws Exception {
+    void testGetAllStation() throws Exception {
         List<FireStation> stations = new ArrayList<>();
         stations.add(new FireStation("1", "test address 1"));
         stations.add(new FireStation("2", "test address 2"));
@@ -58,7 +50,7 @@ public class FireStationControllerTest {
     }
 
     @Test
-    public void testGetAFireStationByAddress() throws Exception {
+    void testGetAFireStationByAddress() throws Exception {
         FireStation fireStation = new FireStation("2", "test");
         when(fireStationService.getByAddress("test")).thenReturn(fireStation);
         mockMvc.perform(get("/fireStation/test"))
@@ -68,23 +60,22 @@ public class FireStationControllerTest {
     }
 
     @Test
-    public void testDeleteFireStationByAddressSuccess() throws Exception {
+    void testDeleteFireStationByAddressSuccess() throws Exception {
         mockMvc.perform(delete("/fireStation/addressTest"))
                 .andExpect(status().isNoContent());
     }
 
     @Test
-    public void testDeleteFireStationByAddressFail() throws Exception {
+    void testDeleteFireStationByAddressFail() throws Exception {
         doThrow(new IllegalArgumentException("FireStation not found")).when(fireStationService).deleteByAddress("NonExistentAddress");
         mockMvc.perform(delete("/fireStation/NonExistentAddress"))
                 .andExpect(status().isNotFound());
     }
 
     @Test
-    public void testSaveFireStation() throws Exception {
+    void testSaveFireStation() throws Exception {
 
         FireStation fireStation = new FireStation("2", "test address");
-        when(fireStationRepository.save(any(FireStation.class))).thenReturn(fireStation);
         when(fireStationService.save(any(FireStation.class))).thenReturn(fireStation);
 
         mockMvc.perform(post("/fireStation")
@@ -95,26 +86,24 @@ public class FireStationControllerTest {
                 .andExpect(jsonPath("$.address").value("test address"));
     }
 
-    @Disabled
+
     @Test
-    public void testUpdateFireStationFound() throws Exception {
-        FireStation fireStation = new FireStation("2", "NewAddress Test");
-        when(fireStationService.update(eq("NewAddress Test"), refEq("2"))).thenReturn(fireStation);
+    void testUpdateFireStationFound() throws Exception {
+        FireStation fireStation = new FireStation("2", "NewAddress");
+        when(fireStationService.update(eq("NewAddress Test"), refEq(fireStation))).thenReturn(fireStation);
 
-        mockMvc.perform(put("/fireStation/NewAddress Test")
+        mockMvc.perform(put("/fireStation/NewAddressTest")
                         .contentType(MediaType.APPLICATION_JSON)
-                        .content("{ \"station\": \"2\", \"address\": \"NewAddress Test\"}"))
+                        .content(objectMapper.writeValueAsString(fireStation)))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.station").value("2"))
-                .andExpect(jsonPath("$.address").value("NewAddress Test"));
-
-        verify(fireStationService, times(1)).update(eq("NewAddress Test"), refEq("2"));
+                .andExpect(jsonPath("$.address").value("NewAddress"))
+                .andExpect(jsonPath("$.station").value("2"));
     }
 
     @Test
-    public void testUpdateFireStationNotFound() throws Exception {
+    void testUpdateFireStationNotFound() throws Exception {
 
-        when(fireStationService.update(Mockito.eq("NonExistentAddress"), Mockito.any(String.class)))
+        when(fireStationService.update(Mockito.eq("NonExistentAddress"), any(FireStation.class)))
                 .thenThrow(new IllegalArgumentException("FireStation not found"));
 
         mockMvc.perform(put("/fireStation/NonExistentAddress")

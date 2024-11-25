@@ -1,9 +1,9 @@
 package com.SafetyNet.Projet5.Service;
+
 import com.SafetyNet.Projet5.model.FireStation;
 import com.SafetyNet.Projet5.repository.FireStationRepository;
 import com.SafetyNet.Projet5.service.FireStationService;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
@@ -71,7 +71,7 @@ class FireStationServiceTest {
         verify(fireStationRepository, times(1)).deleteByAddress(address);
     }
 
-    @Disabled
+
     @Test
     void updateReturnUpdatedFireStationWhenAddressExists() {
         String address = "123 Main St";
@@ -80,11 +80,16 @@ class FireStationServiceTest {
         FireStation existingFireStation = new FireStation(oldStationNumber, address);
         FireStation updatedFireStation = new FireStation(newStationNumber, address);
         when(fireStationRepository.findByAddress(address)).thenReturn(Optional.of(existingFireStation));
-        when(fireStationRepository.updateFireStation(newStationNumber, updatedFireStation)).thenReturn(updatedFireStation);
-        FireStation result = fireStationService.update(address, newStationNumber);
+        when(fireStationRepository.updateFireStation(address, existingFireStation)).thenReturn(updatedFireStation);
+        FireStation result = fireStationService.update(address, updatedFireStation);
+
+        assertNotNull(result);
         assertEquals(updatedFireStation, result);
+        assertEquals(newStationNumber, result.getStation());
+        assertEquals(address, result.getAddress());
+
         verify(fireStationRepository, times(1)).findByAddress(address);
-        verify(fireStationRepository, times(1)).updateFireStation(address, updatedFireStation);
+        verify(fireStationRepository, times(1)).updateFireStation(address, existingFireStation);
     }
 
     @Test
@@ -92,7 +97,7 @@ class FireStationServiceTest {
         String address = "Non-existent address";
         FireStation updatedFireStation = new FireStation(address, "New Station");
         when(fireStationRepository.findByAddress(address)).thenReturn(Optional.empty());
-        assertThrows(IllegalArgumentException.class, () -> fireStationService.update(address,"2"));
+        assertThrows(IllegalArgumentException.class, () -> fireStationService.update(address, updatedFireStation));
         verify(fireStationRepository, times(1)).findByAddress(address);
     }
 

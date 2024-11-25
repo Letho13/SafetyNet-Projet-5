@@ -19,13 +19,13 @@ public class MedicalRecordService {
         this.medicalRecordRepository = medicalRecordRepository;
     }
 
-    public MedicalRecord getByMedicalRecordName(final String medicalRecordName) {
-        LOG.debug("Received request to get medical record by name: {}", medicalRecordName);
-        Optional<MedicalRecord> medicalRecordOpt = medicalRecordRepository.findByMedicalRecordName(medicalRecordName);
+    public MedicalRecord getByMedicalRecordName(final String name) {
+        LOG.debug("Received request to get medical record by name: {}", name);
+        Optional<MedicalRecord> medicalRecordOpt = medicalRecordRepository.findByName(name);
         if (medicalRecordOpt.isEmpty()) {
-            LOG.error("Medical record with name {} not found.", medicalRecordName);
+            LOG.error("Medical record with name {} not found.", name);
         } else {
-            LOG.info("Successfully retrieved medical record with name: {}", medicalRecordName);
+            LOG.info("Successfully retrieved medical record with name: {}", name);
         }
         return medicalRecordOpt.orElse(null);
     }
@@ -37,42 +37,48 @@ public class MedicalRecordService {
         return medicalRecords;
     }
 
-    public void deleteByMedicalRecordName(final String medicalRecordName) {
-        LOG.debug("Received request to delete medical record by name: {}", medicalRecordName);
+    public void deleteByName(final String name) {
+        LOG.debug("Received request to delete medical record by name: {}", name);
         try {
-            medicalRecordRepository.deleteByMedicalRecordName(medicalRecordName);
-            LOG.info("Successfully deleted medical record with name: {}", medicalRecordName);
+            medicalRecordRepository.deleteByName(name);
+            LOG.info("Successfully deleted medical record with name: {}", name);
         } catch (Exception e) {
-            LOG.error("Error deleting medical record with name {}: {}", medicalRecordName, e.getMessage());
+            LOG.error("Error deleting medical record with name {}: {}", name, e.getMessage());
         }
+    }
+
+    public MedicalRecord update(final String name, final MedicalRecord updatedMedicalRecord) {
+        LOG.debug("Received request to update medical record for FullName: {}", name);
+
+        MedicalRecord existingMedicalRecord = medicalRecordRepository.findByName(name)
+                .orElseThrow(() -> new IllegalArgumentException("Medical record not found"));
+
+        MedicalRecord medicalRecordToSave = getMedicalRecord(updatedMedicalRecord, Optional.ofNullable(existingMedicalRecord));
+        MedicalRecord savedMedicalRecord = medicalRecordRepository.updateMedicalRecord(name, medicalRecordToSave);
+
+        LOG.info("Successfully updated medical record for FullName: {}", savedMedicalRecord.getFullName());
+        return savedMedicalRecord;
     }
 
     public MedicalRecord save(MedicalRecord medicalRecord) {
         LOG.debug("Received request to save medical record: {}", medicalRecord);
         MedicalRecord savedMedicalRecord = medicalRecordRepository.save(medicalRecord);
-        LOG.info("Successfully saved medical record with FullName: {}", savedMedicalRecord.getFullName());
+
+        LOG.info("Successfully saved medicalRecord with FullName: {}", savedMedicalRecord);
         return savedMedicalRecord;
     }
 
-    public MedicalRecord update(final String fullName, final MedicalRecord updatedMedicalRecord) {
-        LOG.debug("Received request to update medical record for FullName: {}", fullName);
+    private static MedicalRecord getMedicalRecord(MedicalRecord updatedMedicalRecord, Optional<MedicalRecord> existingMedicalRecord) {
+        LOG.debug("Updating fields for Person based on provided updated information.");
+        MedicalRecord medicalRecordToSave = existingMedicalRecord.get();
+        medicalRecordToSave.setFirstName(updatedMedicalRecord.getFirstName());
+        medicalRecordToSave.setLastName(updatedMedicalRecord.getLastName());
+        medicalRecordToSave.setBirthdate(updatedMedicalRecord.getBirthdate());
+        medicalRecordToSave.setMedications(updatedMedicalRecord.getMedications());
+        medicalRecordToSave.setAllergies(updatedMedicalRecord.getAllergies());
 
-        Optional<MedicalRecord> existingMedicalRecordOpt = medicalRecordRepository.findByMedicalRecordName(fullName);
-        if (existingMedicalRecordOpt.isEmpty()) {
-            LOG.error("Update failed: Medical record with FullName {} not found.", fullName);
-            throw new IllegalArgumentException("Medical record not found");
-        }
-
-        MedicalRecord existingMedicalRecord = existingMedicalRecordOpt.get();
-        existingMedicalRecord.setFirstName(updatedMedicalRecord.getFirstName());
-        existingMedicalRecord.setLastName(updatedMedicalRecord.getLastName());
-        existingMedicalRecord.setBirthdate(updatedMedicalRecord.getBirthdate());
-        existingMedicalRecord.setAllergies(updatedMedicalRecord.getAllergies());
-        existingMedicalRecord.setMedications(updatedMedicalRecord.getMedications());
-
-
-        MedicalRecord savedMedicalRecord = medicalRecordRepository.save(existingMedicalRecord);
-        LOG.info("Successfully updated medical record for FullName: {}", savedMedicalRecord.getFullName());
-        return savedMedicalRecord;
+        LOG.debug("Person fields successfully updated.");
+        return medicalRecordToSave;
     }
+
 }

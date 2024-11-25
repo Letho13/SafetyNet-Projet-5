@@ -44,7 +44,7 @@ public class PersonService {
     public void deleteByName(final String name) {
         LOG.debug("Attempting to delete Person by name: {}", name);
 
-        if (name.isEmpty()) {
+        if (name == null || name.isEmpty()) {
             LOG.error("Delete failed: name is empty.");
             throw new IllegalArgumentException("Name must not be empty");
         }

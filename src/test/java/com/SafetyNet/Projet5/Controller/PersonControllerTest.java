@@ -15,9 +15,7 @@ import org.springframework.test.web.servlet.MockMvc;
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.ArgumentMatchers.any;
-
 import static org.mockito.Mockito.*;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
@@ -39,7 +37,7 @@ public class PersonControllerTest {
 
 
     @Test
-    public void testGetAllPerson() throws Exception {
+    void testGetAllPerson() throws Exception {
         List<Person> people = new ArrayList<>();
         people.add(new Person("John", "Doe"));
         people.add(new Person("Jane", "Doe"));
@@ -53,7 +51,7 @@ public class PersonControllerTest {
     }
 
     @Test
-    public void testGetAPersonByName() throws Exception {
+    void testGetAPersonByName() throws Exception {
         Person person = new Person("John", "Doe");
         when(personService.getByName("JohnDoe")).thenReturn(person);
         mockMvc.perform(get("/person/JohnDoe"))
@@ -63,20 +61,20 @@ public class PersonControllerTest {
     }
 
     @Test
-    public void testDeletePersonByNameSuccess() throws Exception {
+    void testDeletePersonByNameSuccess() throws Exception {
         mockMvc.perform(delete("/person/JohnDoe"))
                 .andExpect(status().isNoContent());
     }
 
     @Test
-    public void testDeletePersonByNameFail() throws Exception {
+    void testDeletePersonByNameFail() throws Exception {
         doThrow(new IllegalArgumentException("Person not found")).when(personService).deleteByName("NonExistentName");
         mockMvc.perform(delete("/person/NonExistentName"))
                 .andExpect(status().isNotFound());
     }
 
     @Test
-    public void testSavePerson() throws Exception {
+    void testSavePerson() throws Exception {
 
         Person person = new Person("John", "Doe");
         when(personRepository.save(any(Person.class))).thenReturn(person);
@@ -90,10 +88,8 @@ public class PersonControllerTest {
                 .andExpect(jsonPath("$.lastName").value("Doe"));
     }
 
-
-
     @Test
-    public void testUpdatePersonFound() throws Exception {
+    void testUpdatePersonFound() throws Exception {
         Person person = new Person("John", "Doe", "New Address", "New City", 12345, "3499329432", "newemail@example.com");
         when(personService.update(eq("JohnDoe"), any(Person.class))).thenReturn(person);
 
@@ -110,7 +106,7 @@ public class PersonControllerTest {
     }
 
     @Test
-    public void testUpdatePersonNotFound() throws Exception {
+    void testUpdatePersonNotFound() throws Exception {
 
         when(personService.update(Mockito.eq("NonExistentName"), Mockito.any(Person.class)))
                 .thenThrow(new IllegalArgumentException("Person not found"));

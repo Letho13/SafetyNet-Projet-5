@@ -8,7 +8,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.io.IOException;
 import java.util.List;
 
 @RestController
@@ -24,32 +23,32 @@ public class MedicalRecordController {
 
 
     @GetMapping()
-    public List <MedicalRecord> getAll() {
-            List<MedicalRecord> medicalRecords = medicalRecordService.getAll();
-            LOG.info("Successfully retrieved {} medical records.", medicalRecords.size());
-            return medicalRecords;
+    public List<MedicalRecord> getAll() {
+        List<MedicalRecord> medicalRecords = medicalRecordService.getAll();
+        LOG.info("Successfully retrieved {} medical records.", medicalRecords.size());
+        return medicalRecords;
     }
 
-    @GetMapping("/{medicalRecordName}")
-    public ResponseEntity<MedicalRecord> getByMedicalRecordName(@PathVariable String medicalRecordName) {
+    @GetMapping("/{name}")
+    public ResponseEntity<MedicalRecord> getByMedicalRecordName(@PathVariable String name) {
         try {
-            MedicalRecord medicalRecord = medicalRecordService.getByMedicalRecordName(medicalRecordName);
-            LOG.info("Successfully retrieved medical record for: {}", medicalRecordName);
+            MedicalRecord medicalRecord = medicalRecordService.getByMedicalRecordName(name);
+            LOG.info("Successfully retrieved medical record for: {}", name);
             return ResponseEntity.ok(medicalRecord);
         } catch (IllegalArgumentException e) {
-            LOG.error("Error retrieving medical record with name {}: {}", medicalRecordName, e.getMessage());
+            LOG.error("Error retrieving medical record with name {}: {}", name, e.getMessage());
             return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
         }
     }
 
-    @DeleteMapping("{medicalRecordName}")
-    public ResponseEntity<Void> deleteByMedicalRecordName(@PathVariable String medicalRecordName) {
+    @DeleteMapping("{name}")
+    public ResponseEntity<Void> deleteByName(@PathVariable String name) {
         try {
-            medicalRecordService.deleteByMedicalRecordName(medicalRecordName);
-            LOG.info("Successfully deleted medical record with name: {}", medicalRecordName);
+            medicalRecordService.deleteByName(name);
+            LOG.info("Successfully deleted medical record with name: {}", name);
             return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
         } catch (IllegalArgumentException e) {
-            LOG.error("Error deleting medical record with name {}: {}", medicalRecordName, e.getMessage());
+            LOG.error("Error deleting medical record with name {}: {}", name, e.getMessage());
             return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
         }
     }
@@ -61,14 +60,14 @@ public class MedicalRecordController {
         return ResponseEntity.status(HttpStatus.CREATED).body(savedMedicalRecord);
     }
 
-    @PutMapping("{medicalRecordName}")
-    public ResponseEntity<MedicalRecord> updateMedicalRecord(@PathVariable String medicalRecordName, @RequestBody MedicalRecord updatedMedicalRecord) {
+    @PutMapping("/{name}")
+    public ResponseEntity<MedicalRecord> updateMedicalRecord(@PathVariable String name, @RequestBody MedicalRecord updatedMedicalRecord) {
         try {
-            MedicalRecord medicalRecord = medicalRecordService.update(medicalRecordName, updatedMedicalRecord);
-            LOG.info("Successfully updated medical record for: {}", medicalRecordName);
+            MedicalRecord medicalRecord = medicalRecordService.update(name, updatedMedicalRecord);
+            LOG.info("Successfully updated medical record for: {}", name);
             return ResponseEntity.ok(medicalRecord);
         } catch (IllegalArgumentException e) {
-            LOG.error("Error updating medical record with name {}: {}", medicalRecordName, e.getMessage());
+            LOG.error("Error updating medical record with name {}: {}", name, e.getMessage());
             return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
         }
     }

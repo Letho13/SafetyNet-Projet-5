@@ -1,7 +1,6 @@
 package com.SafetyNet.Projet5.service;
 
 import com.SafetyNet.Projet5.model.FireStation;
-import com.SafetyNet.Projet5.model.Person;
 import com.SafetyNet.Projet5.repository.FireStationRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -52,13 +51,14 @@ public class FireStationService {
         }
     }
 
-    public FireStation update(final String address, final String updatedStation) {
+    public FireStation update(final String address, final FireStation fireStation) {
         LOG.debug("Attempting to update FireStation for address: {}", address);
 
         FireStation existingFireStation = fireStationRepository.findByAddress(address)
                 .orElseThrow(() -> new IllegalArgumentException("FireStation not found"));
 
-        existingFireStation.setStation(updatedStation);
+        existingFireStation.setStation(fireStation.getStation());
+        existingFireStation.setAddress(fireStation.getAddress());
 
         FireStation savedFireStation = fireStationRepository.updateFireStation(address, existingFireStation);
 

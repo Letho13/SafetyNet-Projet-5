@@ -4,7 +4,6 @@ import com.SafetyNet.Projet5.model.Person;
 import com.SafetyNet.Projet5.repository.PersonRepository;
 import com.SafetyNet.Projet5.service.PersonService;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
@@ -28,12 +27,12 @@ public class PersonServiceTest {
     private PersonRepository personRepository;
 
     @BeforeEach
-    public void setUp() {
+    void setUp() {
         MockitoAnnotations.openMocks(this);
     }
 
     @Test
-    public void testGetByNameFound() {
+    void testGetByNameFound() {
         Person person = new Person("John", "Doe");
         when(personRepository.findByName("JohnDoe")).thenReturn(Optional.of(person));
 
@@ -45,7 +44,7 @@ public class PersonServiceTest {
     }
 
     @Test
-    public void testGetByNameNotFound() {
+    void testGetByNameNotFound() {
         when(personRepository.findByName("NonExistent")).thenReturn(Optional.empty());
 
         Exception exception = assertThrows(IllegalArgumentException.class, () -> {
@@ -57,7 +56,7 @@ public class PersonServiceTest {
     }
 
     @Test
-    public void testGetAllPersons() throws IOException {
+    void testGetAllPersons() throws IOException {
         List<Person> persons = new ArrayList<>();
         persons.add(new Person("John", "Doe"));
         persons.add(new Person("Jane", "Doe"));
@@ -71,7 +70,7 @@ public class PersonServiceTest {
     }
 
     @Test
-    public void testSavePerson() {
+    void testSavePerson() {
         Person person = new Person("John", "Doe");
         when(personRepository.save(any(Person.class))).thenReturn(person);
 
@@ -83,7 +82,7 @@ public class PersonServiceTest {
     }
 
     @Test
-    public void testDeletePersonByName() {
+    void testDeletePersonByName() {
         doNothing().when(personRepository).deleteByName("JohnDoe");
 
         personService.deleteByName("JohnDoe");
@@ -91,9 +90,9 @@ public class PersonServiceTest {
         verify(personRepository, times(1)).deleteByName("JohnDoe");
     }
 
-    @Disabled
+
     @Test
-    public void testDeletePersonByNameThrowsException() {
+    void testDeletePersonByNameThrowsException() {
         doThrow(new IllegalArgumentException("Name must not be empty"))
                 .when(personRepository).deleteByName("");
 
@@ -102,11 +101,11 @@ public class PersonServiceTest {
         });
 
         assertEquals("Name must not be empty", exception.getMessage());
-        verify(personRepository, times(1)).deleteByName("");
     }
 
+
     @Test
-    public void testUpdatePersonFound() {
+    void testUpdatePersonFound() {
         Person existingPerson = new Person("John", "Doe");
         Person updatedPerson = new Person("John", "Doe", "New Address", "New City", 12345, "1234567890", "email@example.com");
 
@@ -123,7 +122,7 @@ public class PersonServiceTest {
     }
 
     @Test
-    public void testUpdatePersonNotFound() {
+    void testUpdatePersonNotFound() {
         Person updatedPerson = new Person("Non", "Existent");
 
         when(personRepository.findByName("NonExistent")).thenReturn(Optional.empty());

@@ -42,7 +42,7 @@ public class FireStationController {
     }
 
     @PutMapping("/{address}")
-    public ResponseEntity<FireStation> updateFireStation(@PathVariable String address, @RequestBody String updatedStation) {
+    public ResponseEntity<FireStation> updateFireStation(@PathVariable String address, @RequestBody FireStation updatedStation) {
                try {
            FireStation fireStation = fireStationService.update(address, updatedStation);
             LOG.info("Successfully updated FireStation for address: {}", fireStation);
@@ -51,7 +51,6 @@ public class FireStationController {
             LOG.error("Update failed: FireStation with address {}: {} not found.", address, e.getMessage());
             return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
         }
-
     }
 
     @DeleteMapping("/{address}")

@@ -1,8 +1,6 @@
 package com.SafetyNet.Projet5.model;
 
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-
 import java.time.LocalDate;
 import java.time.Period;
 import java.time.format.DateTimeFormatter;
@@ -18,6 +16,13 @@ public class MedicalRecord {
     private List<String> allergies;
 
     public MedicalRecord() {
+    }
+
+    public MedicalRecord(String firstName, String lastName, String birthdate) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.birthdate = birthdate;
+
     }
 
     public MedicalRecord(String firstName, String lastName, String birthdate, List<String> medications, List<String> allergies) {
