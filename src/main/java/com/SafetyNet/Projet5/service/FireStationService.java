@@ -57,12 +57,10 @@ public class FireStationService {
         FireStation existingFireStation = fireStationRepository.findByAddress(address)
                 .orElseThrow(() -> new IllegalArgumentException("FireStation not found"));
 
-        existingFireStation.setStation(fireStation.getStation());
-        existingFireStation.setAddress(fireStation.getAddress());
+        FireStation fireStationtoSave = getFireStation(fireStation, Optional.ofNullable(existingFireStation));
+        FireStation savedFireStation = fireStationRepository.updateFireStation(address, fireStationtoSave);
 
-        FireStation savedFireStation = fireStationRepository.updateFireStation(address, existingFireStation);
-
-        LOG.info("Successfully updated FireStation: {}", savedFireStation);
+        LOG.info("Successfully updated FireStation: {}", savedFireStation.getAddress());
         return savedFireStation;
     }
 

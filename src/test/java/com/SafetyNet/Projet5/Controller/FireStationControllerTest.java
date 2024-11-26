@@ -90,9 +90,9 @@ public class FireStationControllerTest {
     @Test
     void testUpdateFireStationFound() throws Exception {
         FireStation fireStation = new FireStation("2", "NewAddress");
-        when(fireStationService.update(eq("NewAddress Test"), refEq(fireStation))).thenReturn(fireStation);
+        when(fireStationService.update(eq("NewAddress"), refEq(fireStation))).thenReturn(fireStation);
 
-        mockMvc.perform(put("/fireStation/NewAddressTest")
+        mockMvc.perform(put("/fireStation/NewAddress")
                         .contentType(MediaType.APPLICATION_JSON)
                         .content(objectMapper.writeValueAsString(fireStation)))
                 .andExpect(status().isOk())
