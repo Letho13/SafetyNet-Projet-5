@@ -68,8 +68,8 @@
 					<excludes>
 						<exclude>com/SafetyNet/Projet5/service/dto/*DTO.*</exclude>
 						<exclude>com/SafetyNet/Projet5/repository/**</exclude>
-						<exclude>com/SafetyNet/Projet5/service/GlobalService.*</exclude>
-						<exclude>com/SafetyNet/Projet5/controller/GlobalController.*</exclude>
+<!--						<exclude>com/SafetyNet/Projet5/service/GlobalService.*</exclude>-->
+<!--						<exclude>com/SafetyNet/Projet5/controller/GlobalController.*</exclude>-->
 					</excludes>
 				</configuration>
 				<executions>
@@ -119,8 +119,8 @@
 					<excludes>
 						<exclude>com/SafetyNet/Projet5/service/dto/*DTO.*</exclude>
 						<exclude>com/SafetyNet/Projet5/repository/**</exclude>
-						<exclude>com/SafetyNet/Projet5/service/GlobalService.*</exclude>
-						<exclude>com/SafetyNet/Projet5/controller/GlobalController.*</exclude>
+<!--						<exclude>com/SafetyNet/Projet5/service/GlobalService.*</exclude>-->
+<!--						<exclude>com/SafetyNet/Projet5/controller/GlobalController.*</exclude>-->
 					</excludes>
 				</configuration>
 			</plugin>
