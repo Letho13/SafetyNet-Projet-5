@@ -7,7 +7,6 @@ import com.SafetyNet.Projet5.repository.FireStationRepository;
 import com.SafetyNet.Projet5.repository.MedicalRecordRepository;
 import com.SafetyNet.Projet5.repository.PersonRepository;
 import com.SafetyNet.Projet5.service.dto.*;
-import org.jetbrains.annotations.NotNull;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -63,7 +62,7 @@ public class GlobalService {
         return listPersonFireStationDTO;
     }
 
-    private int nombreAdultes(@NotNull List<Person> persons) {
+    private int nombreAdultes(List<Person> persons) {
 
         int result = 0;
 
@@ -212,7 +211,6 @@ public class GlobalService {
         List<Person> persons = personRepository.findAll();
         List<MedicalRecord> medicalRecords = medicalRecordRepository.findAll();
         List<FireStation> fireStations = fireStationRepository.findAll();
-
 
         List<String> addresses = fireStations.stream()
                 .filter(fireStation -> stations.contains(fireStation.getStation()))

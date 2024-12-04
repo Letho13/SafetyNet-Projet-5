@@ -17,12 +17,17 @@ public class Person {
 
     private String email;
 
-    private String name;
 
     public Person() {
     }
 
-    public Person(String firstName, String lastName, String address, String city, int zip, String phone, String email, String name) {
+    public Person(String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+
+    }
+
+    public Person(String firstName, String lastName, String address, String city, int zip, String phone, String email) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.address = address;
@@ -30,7 +35,6 @@ public class Person {
         this.zip = zip;
         this.phone = phone;
         this.email = email;
-        this.name = firstName + lastName;
     }
 
     public String getFirstName() {
@@ -89,14 +93,6 @@ public class Person {
         this.email = email;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
     @Override
     public String toString() {
         return "Person{" +
@@ -107,7 +103,6 @@ public class Person {
                 ", zip=" + zip +
                 ", phone='" + phone + '\'' +
                 ", email='" + email + '\'' +
-                ", name='" + name + '\'' +
                 '}';
     }
 

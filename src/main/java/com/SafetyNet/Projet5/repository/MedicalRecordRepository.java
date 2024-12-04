@@ -19,9 +19,9 @@ public class MedicalRecordRepository {
         this.medicalRecords = dataReaderUtil.getMedicalrecords();
     }
 
-    public Optional<MedicalRecord> findByMedicalRecordName(String medicalRecordName){
+    public Optional<MedicalRecord> findByName(String name){
         return medicalRecords.stream()
-                .filter(medicalRecord -> (medicalRecord.getFirstName()+medicalRecord.getLastName()).equals(medicalRecordName))
+                .filter(medicalRecord -> (medicalRecord.getFirstName()+medicalRecord.getLastName()).equals(name))
                 .findFirst();
     }
 
@@ -29,10 +29,21 @@ public class MedicalRecordRepository {
         return medicalRecords;
     }
 
-    public void deleteByMedicalRecordName(String medicalRecordName){
+    public void deleteByName(String name){
         medicalRecords = medicalRecords.stream()
-                .filter(medicalRecord -> !(medicalRecord.getFirstName()+medicalRecord.getLastName()).equals(medicalRecordName))
+                .filter(medicalRecord -> !(medicalRecord.getFirstName()+medicalRecord.getLastName()).equals(name))
                 .toList();
+    }
+
+    public MedicalRecord updateMedicalRecord(String name, MedicalRecord updatedMedicalRecord) {
+        for (int i = 0; i < medicalRecords.size(); i++) {
+            MedicalRecord existingMedicalRecord = medicalRecords.get(i);
+            if ((existingMedicalRecord.getFirstName() + existingMedicalRecord.getLastName()).equals(name)) {
+                medicalRecords.set(i, updatedMedicalRecord);
+                return updatedMedicalRecord;
+            }
+        }
+        throw new IllegalArgumentException("Person not found");
     }
 
     public MedicalRecord save(MedicalRecord medicalRecord){

@@ -31,12 +31,26 @@ public class PersonRepository {
     }
 
     public void deleteByName(String name){
+        if (name == null || name.isEmpty()) {
+            throw new IllegalArgumentException("Name must not be null or empty");
+        }
+
         persons = persons.stream()
-                .filter(person -> !(person.getFirstName()+person.getLastName()).equals(name))
+                .filter(person -> !(person.getFirstName() + person.getLastName()).equals(name))
                 .toList();
-
-
     }
+
+    public Person updatePerson(String name, Person updatedPerson) {
+        for (int i = 0; i < persons.size(); i++) {
+            Person existingPerson = persons.get(i);
+            if ((existingPerson.getFirstName() + existingPerson.getLastName()).equals(name)) {
+                persons.set(i, updatedPerson);
+                return updatedPerson;
+            }
+        }
+        throw new IllegalArgumentException("Person not found");
+    }
+
 
     public Person save(Person person){
         persons.add(person);

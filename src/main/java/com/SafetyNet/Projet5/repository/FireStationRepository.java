@@ -2,7 +2,6 @@ package com.SafetyNet.Projet5.repository;
 
 import com.SafetyNet.Projet5.model.FireStation;
 import com.SafetyNet.Projet5.util.DataReaderUtil;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import java.io.IOException;
@@ -20,7 +19,7 @@ public class FireStationRepository {
         this.fireStations = dataReaderUtil.getFirestations();
     }
 
-    public Optional<FireStation> findByAddress(String address){
+    public Optional<FireStation> findByAddress(String address) {
         return fireStations.stream()
                 .filter(fireStation -> fireStation.getAddress().equals(address))
                 .findFirst();
@@ -30,13 +29,24 @@ public class FireStationRepository {
         return fireStations;
     }
 
-    public void deleteByAddress(String address){
+    public void deleteByAddress(String address) {
         fireStations = fireStations.stream()
-                    .filter(fireStation -> !fireStation.getAddress().equals(address))
-                    .toList();
+                .filter(fireStation -> !fireStation.getAddress().equals(address))
+                .toList();
     }
 
-    public FireStation save(FireStation fireStation){
+    public FireStation updateFireStation(String address, FireStation updatedStation) {
+        for (int i = 0; i < fireStations.size(); i++) {
+            FireStation existingStation = fireStations.get(i);
+            if ((existingStation.getAddress().equals(address))) {
+                fireStations.set(i, updatedStation);
+                return updatedStation;
+            }
+        }
+        throw new IllegalArgumentException("FireStation not found");
+    }
+
+    public FireStation save(FireStation fireStation) {
         fireStations.add(fireStation);
         return fireStation;
     }

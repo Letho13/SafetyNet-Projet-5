@@ -1,0 +1,1240 @@
+2024-12-03T11:25:23.958+01:00  INFO 17980 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : Starting GlobalControllerTest using Java 23.0.1 with PID 17980 (started by Theotime in C:\DEV\Repo\Projet5)
+2024-12-03T11:25:23.970+01:00  INFO 17980 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-12-03T11:25:25.445+01:00  INFO 17980 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : Started GlobalControllerTest in 1.856 seconds (process running for 2.694)
+2024-12-03T11:25:47.583+01:00  INFO 6188 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : Starting GlobalControllerTest using Java 23.0.1 with PID 6188 (started by Theotime in C:\DEV\Repo\Projet5)
+2024-12-03T11:25:47.584+01:00  INFO 6188 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-12-03T11:25:48.935+01:00  INFO 6188 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : Started GlobalControllerTest in 1.616 seconds (process running for 2.245)
+2024-12-03T11:27:35.258+01:00  INFO 25596 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : Starting GlobalControllerTest using Java 23.0.1 with PID 25596 (started by Theotime in C:\DEV\Repo\Projet5)
+2024-12-03T11:27:35.259+01:00  INFO 25596 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-12-03T11:27:36.737+01:00  INFO 25596 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : Started GlobalControllerTest in 1.741 seconds (process running for 2.393)
+2024-12-03T11:27:54.350+01:00  INFO 7544 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : Starting GlobalControllerTest using Java 23.0.1 with PID 7544 (started by Theotime in C:\DEV\Repo\Projet5)
+2024-12-03T11:27:54.352+01:00  INFO 7544 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-12-03T11:27:55.821+01:00  INFO 7544 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : Started GlobalControllerTest in 1.737 seconds (process running for 2.391)
+2024-12-03T11:28:41.796+01:00  INFO 24324 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : Starting GlobalControllerTest using Java 23.0.1 with PID 24324 (started by Theotime in C:\DEV\Repo\Projet5)
+2024-12-03T11:28:41.797+01:00  INFO 24324 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-12-03T11:28:43.182+01:00  INFO 24324 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : Started GlobalControllerTest in 1.654 seconds (process running for 2.308)
+2024-12-03T11:29:19.179+01:00  INFO 14192 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : Starting GlobalControllerTest using Java 23.0.1 with PID 14192 (started by Theotime in C:\DEV\Repo\Projet5)
+2024-12-03T11:29:19.181+01:00  INFO 14192 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-12-03T11:29:20.590+01:00  INFO 14192 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : Started GlobalControllerTest in 1.694 seconds (process running for 2.341)
+2024-12-03T11:30:01.913+01:00  INFO 12176 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : Starting GlobalControllerTest using Java 23.0.1 with PID 12176 (started by Theotime in C:\DEV\Repo\Projet5)
+2024-12-03T11:30:01.914+01:00  INFO 12176 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-12-03T11:30:03.459+01:00  INFO 12176 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : Started GlobalControllerTest in 1.83 seconds (process running for 2.495)
+2024-12-03T11:30:30.176+01:00  INFO 12472 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : Starting GlobalControllerTest using Java 23.0.1 with PID 12472 (started by Theotime in C:\DEV\Repo\Projet5)
+2024-12-03T11:30:30.177+01:00  INFO 12472 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-12-03T11:30:31.606+01:00  INFO 12472 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : Started GlobalControllerTest in 1.698 seconds (process running for 2.344)
+2024-12-03T11:31:44.301+01:00  INFO 16080 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : Starting GlobalControllerTest using Java 23.0.1 with PID 16080 (started by Theotime in C:\DEV\Repo\Projet5)
+2024-12-03T11:31:44.303+01:00  INFO 16080 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-12-03T11:31:45.934+01:00  INFO 16080 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : Started GlobalControllerTest in 1.975 seconds (process running for 3.043)
+2024-12-03T11:32:04.200+01:00  INFO 25008 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : Starting GlobalControllerTest using Java 23.0.1 with PID 25008 (started by Theotime in C:\DEV\Repo\Projet5)
+2024-12-03T11:32:04.201+01:00  INFO 25008 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-12-03T11:32:05.917+01:00  INFO 25008 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : Started GlobalControllerTest in 2.037 seconds (process running for 2.812)
+2024-12-03T11:32:42.215+01:00  INFO 16516 --- [Projet5] [main] c.SafetyNet.Projet5.Projet5Application   : Starting Projet5Application using Java 23.0.1 with PID 16516 (C:\DEV\Repo\Projet5\target\classes started by Theotime in C:\DEV\Repo\Projet5)
+2024-12-03T11:32:42.216+01:00  INFO 16516 --- [Projet5] [main] c.SafetyNet.Projet5.Projet5Application   : No active profile set, falling back to 1 default profile: "default"
+2024-12-03T11:32:42.783+01:00  INFO 16516 --- [Projet5] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-03T11:32:43.126+01:00  INFO 16516 --- [Projet5] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-03T11:32:43.131+01:00  INFO 16516 --- [Projet5] [main] c.SafetyNet.Projet5.Projet5Application   : Started Projet5Application in 1.169 seconds (process running for 1.667)
+2024-12-03T11:35:31.011+01:00  INFO 23624 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : Starting GlobalControllerTest using Java 23.0.1 with PID 23624 (started by Theotime in C:\DEV\Repo\Projet5)
+2024-12-03T11:35:31.012+01:00  INFO 23624 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-12-03T11:35:32.639+01:00  INFO 23624 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : Started GlobalControllerTest in 1.925 seconds (process running for 2.582)
+2024-12-03T11:35:40.319+01:00  INFO 21840 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : Starting GlobalControllerTest using Java 23.0.1 with PID 21840 (started by Theotime in C:\DEV\Repo\Projet5)
+2024-12-03T11:35:40.320+01:00  INFO 21840 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-12-03T11:35:41.744+01:00  INFO 21840 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : Started GlobalControllerTest in 1.701 seconds (process running for 2.332)
+2024-12-03T11:36:29.590+01:00  INFO 25076 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : Starting GlobalControllerTest using Java 23.0.1 with PID 25076 (started by Theotime in C:\DEV\Repo\Projet5)
+2024-12-03T11:36:29.592+01:00  INFO 25076 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-12-03T11:36:30.943+01:00  INFO 25076 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : Started GlobalControllerTest in 1.616 seconds (process running for 2.267)
+2024-12-03T11:37:04.522+01:00  INFO 16140 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : Starting GlobalControllerTest using Java 23.0.1 with PID 16140 (started by Theotime in C:\DEV\Repo\Projet5)
+2024-12-03T11:37:04.523+01:00  INFO 16140 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-12-03T11:37:05.949+01:00  INFO 16140 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : Started GlobalControllerTest in 1.697 seconds (process running for 2.332)
+2024-12-03T11:37:44.035+01:00  INFO 24480 --- [Projet5] [main] c.SafetyNet.Projet5.Projet5Application   : Starting Projet5Application using Java 23.0.1 with PID 24480 (C:\DEV\Repo\Projet5\target\classes started by Theotime in C:\DEV\Repo\Projet5)
+2024-12-03T11:37:44.037+01:00  INFO 24480 --- [Projet5] [main] c.SafetyNet.Projet5.Projet5Application   : No active profile set, falling back to 1 default profile: "default"
+2024-12-03T11:37:44.587+01:00  INFO 24480 --- [Projet5] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-03T11:37:44.914+01:00  INFO 24480 --- [Projet5] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-03T11:37:44.919+01:00  INFO 24480 --- [Projet5] [main] c.SafetyNet.Projet5.Projet5Application   : Started Projet5Application in 1.144 seconds (process running for 1.553)
+2024-12-03T11:39:21.362+01:00  INFO 7024 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : Starting GlobalControllerTest using Java 23.0.1 with PID 7024 (started by Theotime in C:\DEV\Repo\Projet5)
+2024-12-03T11:39:21.363+01:00  INFO 7024 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-12-03T11:39:22.920+01:00  INFO 7024 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : Started GlobalControllerTest in 1.821 seconds (process running for 2.476)
+2024-12-03T11:40:19.233+01:00  INFO 25480 --- [Projet5] [main] c.S.P.C.FireStationControllerTest        : Starting FireStationControllerTest using Java 23.0.1 with PID 25480 (started by Theotime in C:\DEV\Repo\Projet5)
+2024-12-03T11:40:19.235+01:00  INFO 25480 --- [Projet5] [main] c.S.P.C.FireStationControllerTest        : No active profile set, falling back to 1 default profile: "default"
+2024-12-03T11:40:21.262+01:00  INFO 25480 --- [Projet5] [main] c.S.P.C.FireStationControllerTest        : Started FireStationControllerTest in 2.449 seconds (process running for 4.126)
+2024-12-03T11:40:21.621+01:00  INFO 25480 --- [Projet5] [main] c.S.P.controller.FireStationController   : Successfully updated FireStation for address: FireStation{station='2', address='NewAddress'}
+2024-12-03T11:40:21.763+01:00 ERROR 25480 --- [Projet5] [main] c.S.P.controller.FireStationController   : Update failed: FireStation with address NonExistentAddress: FireStation not found not found.
+2024-12-03T11:40:21.768+01:00  INFO 25480 --- [Projet5] [main] c.S.P.controller.FireStationController   : Successfully saved FireStation with address: test address
+2024-12-03T11:40:21.775+01:00 ERROR 25480 --- [Projet5] [main] c.S.P.controller.FireStationController   : Failed to delete FireStation for address: NonExistentAddress
+
+java.lang.IllegalArgumentException: FireStation not found
+	at com.SafetyNet.Projet5.service.FireStationService.deleteByAddress(FireStationService.java:45) ~[classes/:na]
+	at com.SafetyNet.Projet5.controller.FireStationController.deleteByAddress(FireStationController.java:59) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:936) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:596) ~[tomcat-embed-core-10.1.30.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:72) ~[spring-test-6.1.13.jar:6.1.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.30.jar:6.0]
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:165) ~[spring-test-6.1.13.jar:6.1.13]
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132) ~[spring-test-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.test.web.servlet.setup.MockMvcFilterDecorator.doFilter(MockMvcFilterDecorator.java:151) ~[spring-test-6.1.13.jar:6.1.13]
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132) ~[spring-test-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.test.web.servlet.setup.MockMvcFilterDecorator.doFilter(MockMvcFilterDecorator.java:151) ~[spring-test-6.1.13.jar:6.1.13]
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132) ~[spring-test-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.test.web.servlet.setup.MockMvcFilterDecorator.doFilter(MockMvcFilterDecorator.java:151) ~[spring-test-6.1.13.jar:6.1.13]
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132) ~[spring-test-6.1.13.jar:6.1.13]
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:201) ~[spring-test-6.1.13.jar:6.1.13]
+	at com.SafetyNet.Projet5.Controller.FireStationControllerTest.testDeleteFireStationByAddressFail(FireStationControllerTest.java:71) ~[test-classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728) ~[junit-platform-commons-1.10.3.jar:1.10.3]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:50) ~[surefire-junit-platform-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184) ~[surefire-junit-platform-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148) ~[surefire-junit-platform-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122) ~[surefire-junit-platform-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) ~[surefire-booter-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) ~[surefire-booter-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) ~[surefire-booter-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) ~[surefire-booter-3.0.0.jar:3.0.0]
+
+2024-12-03T11:40:21.789+01:00  INFO 25480 --- [Projet5] [main] c.S.P.controller.FireStationController   : Successfully retrieved 2 FireStations.
+2024-12-03T11:40:21.809+01:00  INFO 25480 --- [Projet5] [main] c.S.P.controller.FireStationController   : Successfully deleted FireStation for address: addressTest
+2024-12-03T11:40:21.814+01:00  INFO 25480 --- [Projet5] [main] c.S.P.controller.FireStationController   : Successfully retrieved FireStation for address: test
+2024-12-03T11:40:21.876+01:00  INFO 25480 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : Starting GlobalControllerTest using Java 23.0.1 with PID 25480 (started by Theotime in C:\DEV\Repo\Projet5)
+2024-12-03T11:40:21.877+01:00  INFO 25480 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-12-03T11:40:22.181+01:00  INFO 25480 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : Started GlobalControllerTest in 0.329 seconds (process running for 5.045)
+2024-12-03T11:40:22.292+01:00  INFO 25480 --- [Projet5] [main] c.S.P.C.MedicalRecordControllerTest      : Starting MedicalRecordControllerTest using Java 23.0.1 with PID 25480 (started by Theotime in C:\DEV\Repo\Projet5)
+2024-12-03T11:40:22.292+01:00  INFO 25480 --- [Projet5] [main] c.S.P.C.MedicalRecordControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2024-12-03T11:40:22.442+01:00  INFO 25480 --- [Projet5] [main] c.S.P.C.MedicalRecordControllerTest      : Started MedicalRecordControllerTest in 0.167 seconds (process running for 5.306)
+2024-12-03T11:40:22.450+01:00 ERROR 25480 --- [Projet5] [main] c.S.P.c.MedicalRecordController          : Error deleting medical record with name NonExistentName: MedicalRecord not found
+2024-12-03T11:40:22.456+01:00  INFO 25480 --- [Projet5] [main] c.S.P.c.MedicalRecordController          : Successfully retrieved 1 medical records.
+2024-12-03T11:40:22.474+01:00 ERROR 25480 --- [Projet5] [main] c.S.P.c.MedicalRecordController          : Error updating medical record with name NonExistentName: MedicalRecord not found
+2024-12-03T11:40:22.482+01:00  INFO 25480 --- [Projet5] [main] c.S.P.c.MedicalRecordController          : Successfully updated medical record for: JohnDoe
+2024-12-03T11:40:22.499+01:00  INFO 25480 --- [Projet5] [main] c.S.P.c.MedicalRecordController          : Successfully retrieved medical record for: JohnDoe
+2024-12-03T11:40:22.504+01:00  INFO 25480 --- [Projet5] [main] c.S.P.c.MedicalRecordController          : Successfully deleted medical record with name: JohnDoe
+2024-12-03T11:40:22.508+01:00  INFO 25480 --- [Projet5] [main] c.S.P.c.MedicalRecordController          : Successfully saved medical record with fullname: John Doe
+2024-12-03T11:40:22.537+01:00  INFO 25480 --- [Projet5] [main] c.S.P.Controller.PersonControllerTest    : Starting PersonControllerTest using Java 23.0.1 with PID 25480 (started by Theotime in C:\DEV\Repo\Projet5)
+2024-12-03T11:40:22.538+01:00  INFO 25480 --- [Projet5] [main] c.S.P.Controller.PersonControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-12-03T11:40:22.730+01:00  INFO 25480 --- [Projet5] [main] c.S.P.Controller.PersonControllerTest    : Started PersonControllerTest in 0.205 seconds (process running for 5.594)
+2024-12-03T11:40:22.749+01:00 ERROR 25480 --- [Projet5] [main] c.S.Projet5.controller.PersonController  : Error updating Person with name NonExistentName: Person not found
+2024-12-03T11:40:22.756+01:00  INFO 25480 --- [Projet5] [main] c.S.Projet5.controller.PersonController  : Successfully deleted Person with name: JohnDoe
+2024-12-03T11:40:22.761+01:00  INFO 25480 --- [Projet5] [main] c.S.Projet5.controller.PersonController  : Successfully retrieved Person with name: JohnDoe
+2024-12-03T11:40:22.766+01:00 ERROR 25480 --- [Projet5] [main] c.S.Projet5.controller.PersonController  : Error deleting Person with name NonExistentName: Person not found
+2024-12-03T11:40:22.771+01:00  INFO 25480 --- [Projet5] [main] c.S.Projet5.controller.PersonController  : Successfully saved Person with Name: John Doe
+2024-12-03T11:40:22.777+01:00  INFO 25480 --- [Projet5] [main] c.S.Projet5.controller.PersonController  : Updated person: Person{firstName='John', lastName='Doe', address='New Address', city='New City', zip=12345, phone='3499329432', email='newemail@example.com'}
+2024-12-03T11:40:22.791+01:00  INFO 25480 --- [Projet5] [main] c.S.Projet5.controller.PersonController  : Successfully retrieved 2 Persons.
+2024-12-03T11:40:22.828+01:00  INFO 25480 --- [Projet5] [main] c.S.Projet5.Projet5ApplicationTests      : Starting Projet5ApplicationTests using Java 23.0.1 with PID 25480 (started by Theotime in C:\DEV\Repo\Projet5)
+2024-12-03T11:40:22.828+01:00  INFO 25480 --- [Projet5] [main] c.S.Projet5.Projet5ApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-12-03T11:40:23.329+01:00  INFO 25480 --- [Projet5] [main] c.S.Projet5.Projet5ApplicationTests      : Started Projet5ApplicationTests in 0.518 seconds (process running for 6.193)
+2024-12-03T11:40:23.402+01:00  INFO 25480 --- [Projet5] [main] c.S.Projet5.service.FireStationService   : Successfully updated FireStation: 123 Main St
+2024-12-03T11:40:23.416+01:00  INFO 25480 --- [Projet5] [main] c.S.Projet5.service.FireStationService   : Successfully saved FireStation with id: FireStation{station='1', address='123 Main Street'}
+2024-12-03T11:40:23.425+01:00  INFO 25480 --- [Projet5] [main] c.S.Projet5.service.FireStationService   : Successfully retrieved 2 FireStations.
+2024-12-03T11:40:23.429+01:00 ERROR 25480 --- [Projet5] [main] c.S.Projet5.service.FireStationService   : FireStation not found for address: Non-existent address
+2024-12-03T11:40:23.431+01:00 ERROR 25480 --- [Projet5] [main] c.S.Projet5.service.FireStationService   : Failed to delete FireStation for address: 123 Main St
+
+java.lang.RuntimeException: Database error
+	at com.SafetyNet.Projet5.repository.FireStationRepository.deleteByAddress(FireStationRepository.java:33) ~[classes/:na]
+	at com.SafetyNet.Projet5.service.FireStationService.deleteByAddress(FireStationService.java:47) ~[classes/:na]
+	at com.SafetyNet.Projet5.Service.FireStationServiceTest.deleteByAddressExceptionWhenRepositoryThrowsError(FireStationServiceTest.java:70) ~[test-classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728) ~[junit-platform-commons-1.10.3.jar:1.10.3]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:50) ~[surefire-junit-platform-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184) ~[surefire-junit-platform-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148) ~[surefire-junit-platform-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122) ~[surefire-junit-platform-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) ~[surefire-booter-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) ~[surefire-booter-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) ~[surefire-booter-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) ~[surefire-booter-3.0.0.jar:3.0.0]
+
+2024-12-03T11:40:23.437+01:00  INFO 25480 --- [Projet5] [main] c.S.Projet5.service.FireStationService   : Successfully retrieved FireStation by address: 123 Main St
+2024-12-03T11:40:23.440+01:00  INFO 25480 --- [Projet5] [main] c.S.Projet5.service.FireStationService   : Successfully deleted FireStation for address: 123 Main St
+2024-12-03T11:40:23.479+01:00  INFO 25480 --- [Projet5] [main] c.S.P.service.MedicalRecordService       : Successfully retrieved 2 medical records.
+2024-12-03T11:40:23.483+01:00  INFO 25480 --- [Projet5] [main] c.S.P.service.MedicalRecordService       : Successfully deleted medical record with name: JohnDoe
+2024-12-03T11:40:23.490+01:00  INFO 25480 --- [Projet5] [main] c.S.P.service.MedicalRecordService       : Successfully retrieved medical record with name: JohnDoe
+2024-12-03T11:40:23.493+01:00  INFO 25480 --- [Projet5] [main] c.S.P.service.MedicalRecordService       : Successfully updated medical record for FullName: John Doe
+2024-12-03T11:40:23.496+01:00 ERROR 25480 --- [Projet5] [main] c.S.P.service.MedicalRecordService       : Medical record with name JaneDoe not found.
+2024-12-03T11:40:23.498+01:00  INFO 25480 --- [Projet5] [main] c.S.P.service.MedicalRecordService       : Successfully saved medicalRecord with FullName: MedicalRecord{firstName='John', lastName='Doe', birthdate='01/01/1980', medications=[Med1], allergies=[Allergy1]}
+2024-12-03T11:40:23.504+01:00  INFO 25480 --- [Projet5] [main] c.S.Projet5.service.PersonService        : Successfully retrieved 2 persons.
+2024-12-03T11:40:23.506+01:00  INFO 25480 --- [Projet5] [main] c.S.Projet5.service.PersonService        : Successfully retrieved Person by name: JohnDoe
+2024-12-03T11:40:23.509+01:00  INFO 25480 --- [Projet5] [main] c.S.Projet5.service.PersonService        : Successfully deleted Person by name: JohnDoe
+2024-12-03T11:40:23.512+01:00  INFO 25480 --- [Projet5] [main] c.S.Projet5.service.PersonService        : Successfully saved Person: Person{firstName='John', lastName='Doe', address='null', city='null', zip=0, phone='null', email='null'}
+2024-12-03T11:40:23.516+01:00 ERROR 25480 --- [Projet5] [main] c.S.Projet5.service.PersonService        : Delete failed: name is empty.
+2024-12-03T11:40:23.518+01:00  INFO 25480 --- [Projet5] [main] c.S.Projet5.service.PersonService        : Successfully updated Person: Person{firstName='John', lastName='Doe', address='New Address', city='New City', zip=12345, phone='1234567890', email='email@example.com'}
+2024-12-03T11:40:23.521+01:00 ERROR 25480 --- [Projet5] [main] c.S.Projet5.service.PersonService        : Person not found for name: NonExistent
+2024-12-03T11:43:07.385+01:00  INFO 18624 --- [Projet5] [main] c.S.P.C.FireStationControllerTest        : Starting FireStationControllerTest using Java 23.0.1 with PID 18624 (started by Theotime in C:\DEV\Repo\Projet5)
+2024-12-03T11:43:07.386+01:00  INFO 18624 --- [Projet5] [main] c.S.P.C.FireStationControllerTest        : No active profile set, falling back to 1 default profile: "default"
+2024-12-03T11:43:09.596+01:00  INFO 18624 --- [Projet5] [main] c.S.P.C.FireStationControllerTest        : Started FireStationControllerTest in 2.562 seconds (process running for 3.928)
+2024-12-03T11:43:09.988+01:00  INFO 18624 --- [Projet5] [main] c.S.P.controller.FireStationController   : Successfully updated FireStation for address: FireStation{station='2', address='NewAddress'}
+2024-12-03T11:43:10.123+01:00 ERROR 18624 --- [Projet5] [main] c.S.P.controller.FireStationController   : Update failed: FireStation with address NonExistentAddress: FireStation not found not found.
+2024-12-03T11:43:10.131+01:00  INFO 18624 --- [Projet5] [main] c.S.P.controller.FireStationController   : Successfully saved FireStation with address: test address
+2024-12-03T11:43:10.139+01:00 ERROR 18624 --- [Projet5] [main] c.S.P.controller.FireStationController   : Failed to delete FireStation for address: NonExistentAddress
+
+java.lang.IllegalArgumentException: FireStation not found
+	at com.SafetyNet.Projet5.service.FireStationService.deleteByAddress(FireStationService.java:45) ~[classes/:na]
+	at com.SafetyNet.Projet5.controller.FireStationController.deleteByAddress(FireStationController.java:59) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:936) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:596) ~[tomcat-embed-core-10.1.30.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:72) ~[spring-test-6.1.13.jar:6.1.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.30.jar:6.0]
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:165) ~[spring-test-6.1.13.jar:6.1.13]
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132) ~[spring-test-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.test.web.servlet.setup.MockMvcFilterDecorator.doFilter(MockMvcFilterDecorator.java:151) ~[spring-test-6.1.13.jar:6.1.13]
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132) ~[spring-test-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.test.web.servlet.setup.MockMvcFilterDecorator.doFilter(MockMvcFilterDecorator.java:151) ~[spring-test-6.1.13.jar:6.1.13]
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132) ~[spring-test-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.test.web.servlet.setup.MockMvcFilterDecorator.doFilter(MockMvcFilterDecorator.java:151) ~[spring-test-6.1.13.jar:6.1.13]
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132) ~[spring-test-6.1.13.jar:6.1.13]
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:201) ~[spring-test-6.1.13.jar:6.1.13]
+	at com.SafetyNet.Projet5.Controller.FireStationControllerTest.testDeleteFireStationByAddressFail(FireStationControllerTest.java:71) ~[test-classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728) ~[junit-platform-commons-1.10.3.jar:1.10.3]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:50) ~[surefire-junit-platform-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184) ~[surefire-junit-platform-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148) ~[surefire-junit-platform-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122) ~[surefire-junit-platform-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) ~[surefire-booter-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) ~[surefire-booter-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) ~[surefire-booter-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) ~[surefire-booter-3.0.0.jar:3.0.0]
+
+2024-12-03T11:43:10.152+01:00  INFO 18624 --- [Projet5] [main] c.S.P.controller.FireStationController   : Successfully retrieved 2 FireStations.
+2024-12-03T11:43:10.172+01:00  INFO 18624 --- [Projet5] [main] c.S.P.controller.FireStationController   : Successfully deleted FireStation for address: addressTest
+2024-12-03T11:43:10.177+01:00  INFO 18624 --- [Projet5] [main] c.S.P.controller.FireStationController   : Successfully retrieved FireStation for address: test
+2024-12-03T11:43:10.246+01:00  INFO 18624 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : Starting GlobalControllerTest using Java 23.0.1 with PID 18624 (started by Theotime in C:\DEV\Repo\Projet5)
+2024-12-03T11:43:10.247+01:00  INFO 18624 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-12-03T11:43:10.516+01:00  INFO 18624 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : Started GlobalControllerTest in 0.306 seconds (process running for 4.848)
+2024-12-03T11:43:10.633+01:00  INFO 18624 --- [Projet5] [main] c.S.P.C.MedicalRecordControllerTest      : Starting MedicalRecordControllerTest using Java 23.0.1 with PID 18624 (started by Theotime in C:\DEV\Repo\Projet5)
+2024-12-03T11:43:10.634+01:00  INFO 18624 --- [Projet5] [main] c.S.P.C.MedicalRecordControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2024-12-03T11:43:10.808+01:00  INFO 18624 --- [Projet5] [main] c.S.P.C.MedicalRecordControllerTest      : Started MedicalRecordControllerTest in 0.199 seconds (process running for 5.14)
+2024-12-03T11:43:10.814+01:00 ERROR 18624 --- [Projet5] [main] c.S.P.c.MedicalRecordController          : Error deleting medical record with name NonExistentName: MedicalRecord not found
+2024-12-03T11:43:10.819+01:00  INFO 18624 --- [Projet5] [main] c.S.P.c.MedicalRecordController          : Successfully retrieved 1 medical records.
+2024-12-03T11:43:10.844+01:00 ERROR 18624 --- [Projet5] [main] c.S.P.c.MedicalRecordController          : Error updating medical record with name NonExistentName: MedicalRecord not found
+2024-12-03T11:43:10.859+01:00  INFO 18624 --- [Projet5] [main] c.S.P.c.MedicalRecordController          : Successfully updated medical record for: JohnDoe
+2024-12-03T11:43:10.883+01:00  INFO 18624 --- [Projet5] [main] c.S.P.c.MedicalRecordController          : Successfully retrieved medical record for: JohnDoe
+2024-12-03T11:43:10.895+01:00  INFO 18624 --- [Projet5] [main] c.S.P.c.MedicalRecordController          : Successfully deleted medical record with name: JohnDoe
+2024-12-03T11:43:10.902+01:00  INFO 18624 --- [Projet5] [main] c.S.P.c.MedicalRecordController          : Successfully saved medical record with fullname: John Doe
+2024-12-03T11:43:10.937+01:00  INFO 18624 --- [Projet5] [main] c.S.P.Controller.PersonControllerTest    : Starting PersonControllerTest using Java 23.0.1 with PID 18624 (started by Theotime in C:\DEV\Repo\Projet5)
+2024-12-03T11:43:10.938+01:00  INFO 18624 --- [Projet5] [main] c.S.P.Controller.PersonControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-12-03T11:43:11.182+01:00  INFO 18624 --- [Projet5] [main] c.S.P.Controller.PersonControllerTest    : Started PersonControllerTest in 0.264 seconds (process running for 5.514)
+2024-12-03T11:43:11.196+01:00 ERROR 18624 --- [Projet5] [main] c.S.Projet5.controller.PersonController  : Error updating Person with name NonExistentName: Person not found
+2024-12-03T11:43:11.201+01:00  INFO 18624 --- [Projet5] [main] c.S.Projet5.controller.PersonController  : Successfully deleted Person with name: JohnDoe
+2024-12-03T11:43:11.205+01:00  INFO 18624 --- [Projet5] [main] c.S.Projet5.controller.PersonController  : Successfully retrieved Person with name: JohnDoe
+2024-12-03T11:43:11.209+01:00 ERROR 18624 --- [Projet5] [main] c.S.Projet5.controller.PersonController  : Error deleting Person with name NonExistentName: Person not found
+2024-12-03T11:43:11.213+01:00  INFO 18624 --- [Projet5] [main] c.S.Projet5.controller.PersonController  : Successfully saved Person with Name: John Doe
+2024-12-03T11:43:11.222+01:00  INFO 18624 --- [Projet5] [main] c.S.Projet5.controller.PersonController  : Updated person: Person{firstName='John', lastName='Doe', address='New Address', city='New City', zip=12345, phone='3499329432', email='newemail@example.com'}
+2024-12-03T11:43:11.241+01:00  INFO 18624 --- [Projet5] [main] c.S.Projet5.controller.PersonController  : Successfully retrieved 2 Persons.
+2024-12-03T11:43:11.280+01:00  INFO 18624 --- [Projet5] [main] c.S.Projet5.Projet5ApplicationTests      : Starting Projet5ApplicationTests using Java 23.0.1 with PID 18624 (started by Theotime in C:\DEV\Repo\Projet5)
+2024-12-03T11:43:11.281+01:00  INFO 18624 --- [Projet5] [main] c.S.Projet5.Projet5ApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-12-03T11:43:11.772+01:00  INFO 18624 --- [Projet5] [main] c.S.Projet5.Projet5ApplicationTests      : Started Projet5ApplicationTests in 0.506 seconds (process running for 6.104)
+2024-12-03T11:43:11.843+01:00  INFO 18624 --- [Projet5] [main] c.S.Projet5.service.FireStationService   : Successfully updated FireStation: 123 Main St
+2024-12-03T11:43:11.856+01:00  INFO 18624 --- [Projet5] [main] c.S.Projet5.service.FireStationService   : Successfully saved FireStation with id: FireStation{station='1', address='123 Main Street'}
+2024-12-03T11:43:11.865+01:00  INFO 18624 --- [Projet5] [main] c.S.Projet5.service.FireStationService   : Successfully retrieved 2 FireStations.
+2024-12-03T11:43:11.870+01:00 ERROR 18624 --- [Projet5] [main] c.S.Projet5.service.FireStationService   : FireStation not found for address: Non-existent address
+2024-12-03T11:43:11.875+01:00 ERROR 18624 --- [Projet5] [main] c.S.Projet5.service.FireStationService   : Failed to delete FireStation for address: 123 Main St
+
+java.lang.RuntimeException: Database error
+	at com.SafetyNet.Projet5.repository.FireStationRepository.deleteByAddress(FireStationRepository.java:33) ~[classes/:na]
+	at com.SafetyNet.Projet5.service.FireStationService.deleteByAddress(FireStationService.java:47) ~[classes/:na]
+	at com.SafetyNet.Projet5.Service.FireStationServiceTest.deleteByAddressExceptionWhenRepositoryThrowsError(FireStationServiceTest.java:70) ~[test-classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728) ~[junit-platform-commons-1.10.3.jar:1.10.3]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:50) ~[surefire-junit-platform-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184) ~[surefire-junit-platform-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148) ~[surefire-junit-platform-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122) ~[surefire-junit-platform-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) ~[surefire-booter-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) ~[surefire-booter-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) ~[surefire-booter-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) ~[surefire-booter-3.0.0.jar:3.0.0]
+
+2024-12-03T11:43:11.881+01:00  INFO 18624 --- [Projet5] [main] c.S.Projet5.service.FireStationService   : Successfully retrieved FireStation by address: 123 Main St
+2024-12-03T11:43:11.884+01:00  INFO 18624 --- [Projet5] [main] c.S.Projet5.service.FireStationService   : Successfully deleted FireStation for address: 123 Main St
+2024-12-03T11:43:11.919+01:00  INFO 18624 --- [Projet5] [main] c.S.P.service.MedicalRecordService       : Successfully retrieved 2 medical records.
+2024-12-03T11:43:11.922+01:00  INFO 18624 --- [Projet5] [main] c.S.P.service.MedicalRecordService       : Successfully deleted medical record with name: JohnDoe
+2024-12-03T11:43:11.928+01:00  INFO 18624 --- [Projet5] [main] c.S.P.service.MedicalRecordService       : Successfully retrieved medical record with name: JohnDoe
+2024-12-03T11:43:11.930+01:00  INFO 18624 --- [Projet5] [main] c.S.P.service.MedicalRecordService       : Successfully updated medical record for FullName: John Doe
+2024-12-03T11:43:11.933+01:00 ERROR 18624 --- [Projet5] [main] c.S.P.service.MedicalRecordService       : Medical record with name JaneDoe not found.
+2024-12-03T11:43:11.935+01:00  INFO 18624 --- [Projet5] [main] c.S.P.service.MedicalRecordService       : Successfully saved medicalRecord with FullName: MedicalRecord{firstName='John', lastName='Doe', birthdate='01/01/1980', medications=[Med1], allergies=[Allergy1]}
+2024-12-03T11:43:11.942+01:00  INFO 18624 --- [Projet5] [main] c.S.Projet5.service.PersonService        : Successfully retrieved 2 persons.
+2024-12-03T11:43:11.944+01:00  INFO 18624 --- [Projet5] [main] c.S.Projet5.service.PersonService        : Successfully retrieved Person by name: JohnDoe
+2024-12-03T11:43:11.948+01:00  INFO 18624 --- [Projet5] [main] c.S.Projet5.service.PersonService        : Successfully deleted Person by name: JohnDoe
+2024-12-03T11:43:11.951+01:00  INFO 18624 --- [Projet5] [main] c.S.Projet5.service.PersonService        : Successfully saved Person: Person{firstName='John', lastName='Doe', address='null', city='null', zip=0, phone='null', email='null'}
+2024-12-03T11:43:11.954+01:00 ERROR 18624 --- [Projet5] [main] c.S.Projet5.service.PersonService        : Delete failed: name is empty.
+2024-12-03T11:43:11.956+01:00  INFO 18624 --- [Projet5] [main] c.S.Projet5.service.PersonService        : Successfully updated Person: Person{firstName='John', lastName='Doe', address='New Address', city='New City', zip=12345, phone='1234567890', email='email@example.com'}
+2024-12-03T11:43:11.958+01:00 ERROR 18624 --- [Projet5] [main] c.S.Projet5.service.PersonService        : Person not found for name: NonExistent
+2024-12-03T17:24:17.550+01:00  INFO 12404 --- [Projet5] [main] c.S.P.C.FireStationControllerTest        : Starting FireStationControllerTest using Java 23.0.1 with PID 12404 (started by Theotime in C:\DEV\Repo\Projet5)
+2024-12-03T17:24:17.551+01:00  INFO 12404 --- [Projet5] [main] c.S.P.C.FireStationControllerTest        : No active profile set, falling back to 1 default profile: "default"
+2024-12-03T17:24:19.564+01:00  INFO 12404 --- [Projet5] [main] c.S.P.C.FireStationControllerTest        : Started FireStationControllerTest in 2.361 seconds (process running for 3.883)
+2024-12-03T17:24:19.936+01:00  INFO 12404 --- [Projet5] [main] c.S.P.controller.FireStationController   : Successfully updated FireStation for address: FireStation{station='2', address='NewAddress'}
+2024-12-03T17:24:20.070+01:00 ERROR 12404 --- [Projet5] [main] c.S.P.controller.FireStationController   : Update failed: FireStation with address NonExistentAddress: FireStation not found not found.
+2024-12-03T17:24:20.077+01:00  INFO 12404 --- [Projet5] [main] c.S.P.controller.FireStationController   : Successfully saved FireStation with address: test address
+2024-12-03T17:24:20.083+01:00 ERROR 12404 --- [Projet5] [main] c.S.P.controller.FireStationController   : Failed to delete FireStation for address: NonExistentAddress
+
+java.lang.IllegalArgumentException: FireStation not found
+	at com.SafetyNet.Projet5.service.FireStationService.deleteByAddress(FireStationService.java:45) ~[classes/:na]
+	at com.SafetyNet.Projet5.controller.FireStationController.deleteByAddress(FireStationController.java:59) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:936) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:596) ~[tomcat-embed-core-10.1.30.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:72) ~[spring-test-6.1.13.jar:6.1.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.30.jar:6.0]
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:165) ~[spring-test-6.1.13.jar:6.1.13]
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132) ~[spring-test-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.test.web.servlet.setup.MockMvcFilterDecorator.doFilter(MockMvcFilterDecorator.java:151) ~[spring-test-6.1.13.jar:6.1.13]
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132) ~[spring-test-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.test.web.servlet.setup.MockMvcFilterDecorator.doFilter(MockMvcFilterDecorator.java:151) ~[spring-test-6.1.13.jar:6.1.13]
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132) ~[spring-test-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.test.web.servlet.setup.MockMvcFilterDecorator.doFilter(MockMvcFilterDecorator.java:151) ~[spring-test-6.1.13.jar:6.1.13]
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132) ~[spring-test-6.1.13.jar:6.1.13]
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:201) ~[spring-test-6.1.13.jar:6.1.13]
+	at com.SafetyNet.Projet5.Controller.FireStationControllerTest.testDeleteFireStationByAddressFail(FireStationControllerTest.java:71) ~[test-classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728) ~[junit-platform-commons-1.10.3.jar:1.10.3]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:50) ~[surefire-junit-platform-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184) ~[surefire-junit-platform-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148) ~[surefire-junit-platform-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122) ~[surefire-junit-platform-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) ~[surefire-booter-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) ~[surefire-booter-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) ~[surefire-booter-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) ~[surefire-booter-3.0.0.jar:3.0.0]
+
+2024-12-03T17:24:20.096+01:00  INFO 12404 --- [Projet5] [main] c.S.P.controller.FireStationController   : Successfully retrieved 2 FireStations.
+2024-12-03T17:24:20.119+01:00  INFO 12404 --- [Projet5] [main] c.S.P.controller.FireStationController   : Successfully deleted FireStation for address: addressTest
+2024-12-03T17:24:20.125+01:00  INFO 12404 --- [Projet5] [main] c.S.P.controller.FireStationController   : Successfully retrieved FireStation for address: test
+2024-12-03T17:24:20.190+01:00  INFO 12404 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : Starting GlobalControllerTest using Java 23.0.1 with PID 12404 (started by Theotime in C:\DEV\Repo\Projet5)
+2024-12-03T17:24:20.190+01:00  INFO 12404 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-12-03T17:24:20.385+01:00  INFO 12404 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : Started GlobalControllerTest in 0.217 seconds (process running for 4.704)
+2024-12-03T17:24:20.476+01:00  INFO 12404 --- [Projet5] [main] c.S.P.C.MedicalRecordControllerTest      : Starting MedicalRecordControllerTest using Java 23.0.1 with PID 12404 (started by Theotime in C:\DEV\Repo\Projet5)
+2024-12-03T17:24:20.476+01:00  INFO 12404 --- [Projet5] [main] c.S.P.C.MedicalRecordControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2024-12-03T17:24:20.635+01:00  INFO 12404 --- [Projet5] [main] c.S.P.C.MedicalRecordControllerTest      : Started MedicalRecordControllerTest in 0.175 seconds (process running for 4.954)
+2024-12-03T17:24:20.641+01:00 ERROR 12404 --- [Projet5] [main] c.S.P.c.MedicalRecordController          : Error deleting medical record with name NonExistentName: MedicalRecord not found
+2024-12-03T17:24:20.646+01:00  INFO 12404 --- [Projet5] [main] c.S.P.c.MedicalRecordController          : Successfully retrieved 1 medical records.
+2024-12-03T17:24:20.665+01:00 ERROR 12404 --- [Projet5] [main] c.S.P.c.MedicalRecordController          : Error updating medical record with name NonExistentName: MedicalRecord not found
+2024-12-03T17:24:20.674+01:00  INFO 12404 --- [Projet5] [main] c.S.P.c.MedicalRecordController          : Successfully updated medical record for: JohnDoe
+2024-12-03T17:24:20.698+01:00  INFO 12404 --- [Projet5] [main] c.S.P.c.MedicalRecordController          : Successfully retrieved medical record for: JohnDoe
+2024-12-03T17:24:20.704+01:00  INFO 12404 --- [Projet5] [main] c.S.P.c.MedicalRecordController          : Successfully deleted medical record with name: JohnDoe
+2024-12-03T17:24:20.712+01:00  INFO 12404 --- [Projet5] [main] c.S.P.c.MedicalRecordController          : Successfully saved medical record with fullname: John Doe
+2024-12-03T17:24:20.753+01:00  INFO 12404 --- [Projet5] [main] c.S.P.Controller.PersonControllerTest    : Starting PersonControllerTest using Java 23.0.1 with PID 12404 (started by Theotime in C:\DEV\Repo\Projet5)
+2024-12-03T17:24:20.753+01:00  INFO 12404 --- [Projet5] [main] c.S.P.Controller.PersonControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-12-03T17:24:20.955+01:00  INFO 12404 --- [Projet5] [main] c.S.P.Controller.PersonControllerTest    : Started PersonControllerTest in 0.221 seconds (process running for 5.274)
+2024-12-03T17:24:20.973+01:00 ERROR 12404 --- [Projet5] [main] c.S.Projet5.controller.PersonController  : Error updating Person with name NonExistentName: Person not found
+2024-12-03T17:24:20.981+01:00  INFO 12404 --- [Projet5] [main] c.S.Projet5.controller.PersonController  : Successfully deleted Person with name: JohnDoe
+2024-12-03T17:24:20.988+01:00  INFO 12404 --- [Projet5] [main] c.S.Projet5.controller.PersonController  : Successfully retrieved Person with name: JohnDoe
+2024-12-03T17:24:20.994+01:00 ERROR 12404 --- [Projet5] [main] c.S.Projet5.controller.PersonController  : Error deleting Person with name NonExistentName: Person not found
+2024-12-03T17:24:21.001+01:00  INFO 12404 --- [Projet5] [main] c.S.Projet5.controller.PersonController  : Successfully saved Person with Name: John Doe
+2024-12-03T17:24:21.011+01:00  INFO 12404 --- [Projet5] [main] c.S.Projet5.controller.PersonController  : Updated person: Person{firstName='John', lastName='Doe', address='New Address', city='New City', zip=12345, phone='3499329432', email='newemail@example.com'}
+2024-12-03T17:24:21.040+01:00  INFO 12404 --- [Projet5] [main] c.S.Projet5.controller.PersonController  : Successfully retrieved 2 Persons.
+2024-12-03T17:24:21.085+01:00  INFO 12404 --- [Projet5] [main] c.S.Projet5.Projet5ApplicationTests      : Starting Projet5ApplicationTests using Java 23.0.1 with PID 12404 (started by Theotime in C:\DEV\Repo\Projet5)
+2024-12-03T17:24:21.086+01:00  INFO 12404 --- [Projet5] [main] c.S.Projet5.Projet5ApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-12-03T17:24:21.594+01:00  INFO 12404 --- [Projet5] [main] c.S.Projet5.Projet5ApplicationTests      : Started Projet5ApplicationTests in 0.526 seconds (process running for 5.913)
+2024-12-03T17:24:21.664+01:00  INFO 12404 --- [Projet5] [main] c.S.Projet5.service.FireStationService   : Successfully updated FireStation: 123 Main St
+2024-12-03T17:24:21.674+01:00  INFO 12404 --- [Projet5] [main] c.S.Projet5.service.FireStationService   : Successfully saved FireStation with id: FireStation{station='1', address='123 Main Street'}
+2024-12-03T17:24:21.679+01:00  INFO 12404 --- [Projet5] [main] c.S.Projet5.service.FireStationService   : Successfully retrieved 2 FireStations.
+2024-12-03T17:24:21.681+01:00 ERROR 12404 --- [Projet5] [main] c.S.Projet5.service.FireStationService   : FireStation not found for address: Non-existent address
+2024-12-03T17:24:21.683+01:00 ERROR 12404 --- [Projet5] [main] c.S.Projet5.service.FireStationService   : Failed to delete FireStation for address: 123 Main St
+
+java.lang.RuntimeException: Database error
+	at com.SafetyNet.Projet5.repository.FireStationRepository.deleteByAddress(FireStationRepository.java:33) ~[classes/:na]
+	at com.SafetyNet.Projet5.service.FireStationService.deleteByAddress(FireStationService.java:47) ~[classes/:na]
+	at com.SafetyNet.Projet5.Service.FireStationServiceTest.deleteByAddressExceptionWhenRepositoryThrowsError(FireStationServiceTest.java:70) ~[test-classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728) ~[junit-platform-commons-1.10.3.jar:1.10.3]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:50) ~[surefire-junit-platform-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184) ~[surefire-junit-platform-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148) ~[surefire-junit-platform-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122) ~[surefire-junit-platform-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) ~[surefire-booter-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) ~[surefire-booter-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) ~[surefire-booter-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) ~[surefire-booter-3.0.0.jar:3.0.0]
+
+2024-12-03T17:24:21.687+01:00  INFO 12404 --- [Projet5] [main] c.S.Projet5.service.FireStationService   : Successfully retrieved FireStation by address: 123 Main St
+2024-12-03T17:24:21.689+01:00  INFO 12404 --- [Projet5] [main] c.S.Projet5.service.FireStationService   : Successfully deleted FireStation for address: 123 Main St
+2024-12-03T17:24:21.756+01:00  INFO 12404 --- [Projet5] [main] c.S.P.service.MedicalRecordService       : Successfully retrieved 2 medical records.
+2024-12-03T17:24:21.760+01:00  INFO 12404 --- [Projet5] [main] c.S.P.service.MedicalRecordService       : Successfully deleted medical record with name: JohnDoe
+2024-12-03T17:24:21.767+01:00  INFO 12404 --- [Projet5] [main] c.S.P.service.MedicalRecordService       : Successfully retrieved medical record with name: JohnDoe
+2024-12-03T17:24:21.770+01:00  INFO 12404 --- [Projet5] [main] c.S.P.service.MedicalRecordService       : Successfully updated medical record for FullName: John Doe
+2024-12-03T17:24:21.772+01:00 ERROR 12404 --- [Projet5] [main] c.S.P.service.MedicalRecordService       : Medical record with name JaneDoe not found.
+2024-12-03T17:24:21.776+01:00  INFO 12404 --- [Projet5] [main] c.S.P.service.MedicalRecordService       : Successfully saved medicalRecord with FullName: MedicalRecord{firstName='John', lastName='Doe', birthdate='01/01/1980', medications=[Med1], allergies=[Allergy1]}
+2024-12-03T17:24:21.785+01:00  INFO 12404 --- [Projet5] [main] c.S.Projet5.service.PersonService        : Successfully retrieved 2 persons.
+2024-12-03T17:24:21.788+01:00  INFO 12404 --- [Projet5] [main] c.S.Projet5.service.PersonService        : Successfully retrieved Person by name: JohnDoe
+2024-12-03T17:24:21.791+01:00  INFO 12404 --- [Projet5] [main] c.S.Projet5.service.PersonService        : Successfully deleted Person by name: JohnDoe
+2024-12-03T17:24:21.794+01:00  INFO 12404 --- [Projet5] [main] c.S.Projet5.service.PersonService        : Successfully saved Person: Person{firstName='John', lastName='Doe', address='null', city='null', zip=0, phone='null', email='null'}
+2024-12-03T17:24:21.798+01:00 ERROR 12404 --- [Projet5] [main] c.S.Projet5.service.PersonService        : Delete failed: name is empty.
+2024-12-03T17:24:21.801+01:00  INFO 12404 --- [Projet5] [main] c.S.Projet5.service.PersonService        : Successfully updated Person: Person{firstName='John', lastName='Doe', address='New Address', city='New City', zip=12345, phone='1234567890', email='email@example.com'}
+2024-12-03T17:24:21.804+01:00 ERROR 12404 --- [Projet5] [main] c.S.Projet5.service.PersonService        : Person not found for name: NonExistent
+2024-12-03T17:24:43.641+01:00  INFO 23144 --- [Projet5] [main] c.S.P.C.FireStationControllerTest        : Starting FireStationControllerTest using Java 23.0.1 with PID 23144 (started by Theotime in C:\DEV\Repo\Projet5)
+2024-12-03T17:24:43.643+01:00  INFO 23144 --- [Projet5] [main] c.S.P.C.FireStationControllerTest        : No active profile set, falling back to 1 default profile: "default"
+2024-12-03T17:24:45.652+01:00  INFO 23144 --- [Projet5] [main] c.S.P.C.FireStationControllerTest        : Started FireStationControllerTest in 2.371 seconds (process running for 3.732)
+2024-12-03T17:24:46.017+01:00  INFO 23144 --- [Projet5] [main] c.S.P.controller.FireStationController   : Successfully updated FireStation for address: FireStation{station='2', address='NewAddress'}
+2024-12-03T17:24:46.141+01:00 ERROR 23144 --- [Projet5] [main] c.S.P.controller.FireStationController   : Update failed: FireStation with address NonExistentAddress: FireStation not found not found.
+2024-12-03T17:24:46.150+01:00  INFO 23144 --- [Projet5] [main] c.S.P.controller.FireStationController   : Successfully saved FireStation with address: test address
+2024-12-03T17:24:46.159+01:00 ERROR 23144 --- [Projet5] [main] c.S.P.controller.FireStationController   : Failed to delete FireStation for address: NonExistentAddress
+
+java.lang.IllegalArgumentException: FireStation not found
+	at com.SafetyNet.Projet5.service.FireStationService.deleteByAddress(FireStationService.java:45) ~[classes/:na]
+	at com.SafetyNet.Projet5.controller.FireStationController.deleteByAddress(FireStationController.java:59) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:936) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:596) ~[tomcat-embed-core-10.1.30.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:72) ~[spring-test-6.1.13.jar:6.1.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.30.jar:6.0]
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:165) ~[spring-test-6.1.13.jar:6.1.13]
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132) ~[spring-test-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.test.web.servlet.setup.MockMvcFilterDecorator.doFilter(MockMvcFilterDecorator.java:151) ~[spring-test-6.1.13.jar:6.1.13]
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132) ~[spring-test-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.test.web.servlet.setup.MockMvcFilterDecorator.doFilter(MockMvcFilterDecorator.java:151) ~[spring-test-6.1.13.jar:6.1.13]
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132) ~[spring-test-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.test.web.servlet.setup.MockMvcFilterDecorator.doFilter(MockMvcFilterDecorator.java:151) ~[spring-test-6.1.13.jar:6.1.13]
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132) ~[spring-test-6.1.13.jar:6.1.13]
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:201) ~[spring-test-6.1.13.jar:6.1.13]
+	at com.SafetyNet.Projet5.Controller.FireStationControllerTest.testDeleteFireStationByAddressFail(FireStationControllerTest.java:71) ~[test-classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728) ~[junit-platform-commons-1.10.3.jar:1.10.3]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:50) ~[surefire-junit-platform-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184) ~[surefire-junit-platform-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148) ~[surefire-junit-platform-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122) ~[surefire-junit-platform-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) ~[surefire-booter-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) ~[surefire-booter-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) ~[surefire-booter-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) ~[surefire-booter-3.0.0.jar:3.0.0]
+
+2024-12-03T17:24:46.172+01:00  INFO 23144 --- [Projet5] [main] c.S.P.controller.FireStationController   : Successfully retrieved 2 FireStations.
+2024-12-03T17:24:46.193+01:00  INFO 23144 --- [Projet5] [main] c.S.P.controller.FireStationController   : Successfully deleted FireStation for address: addressTest
+2024-12-03T17:24:46.198+01:00  INFO 23144 --- [Projet5] [main] c.S.P.controller.FireStationController   : Successfully retrieved FireStation for address: test
+2024-12-03T17:24:46.261+01:00  INFO 23144 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : Starting GlobalControllerTest using Java 23.0.1 with PID 23144 (started by Theotime in C:\DEV\Repo\Projet5)
+2024-12-03T17:24:46.262+01:00  INFO 23144 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-12-03T17:24:46.468+01:00  INFO 23144 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : Started GlobalControllerTest in 0.239 seconds (process running for 4.548)
+2024-12-03T17:24:46.554+01:00  INFO 23144 --- [Projet5] [main] c.S.P.C.MedicalRecordControllerTest      : Starting MedicalRecordControllerTest using Java 23.0.1 with PID 23144 (started by Theotime in C:\DEV\Repo\Projet5)
+2024-12-03T17:24:46.555+01:00  INFO 23144 --- [Projet5] [main] c.S.P.C.MedicalRecordControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2024-12-03T17:24:46.710+01:00  INFO 23144 --- [Projet5] [main] c.S.P.C.MedicalRecordControllerTest      : Started MedicalRecordControllerTest in 0.172 seconds (process running for 4.791)
+2024-12-03T17:24:46.716+01:00 ERROR 23144 --- [Projet5] [main] c.S.P.c.MedicalRecordController          : Error deleting medical record with name NonExistentName: MedicalRecord not found
+2024-12-03T17:24:46.720+01:00  INFO 23144 --- [Projet5] [main] c.S.P.c.MedicalRecordController          : Successfully retrieved 1 medical records.
+2024-12-03T17:24:46.739+01:00 ERROR 23144 --- [Projet5] [main] c.S.P.c.MedicalRecordController          : Error updating medical record with name NonExistentName: MedicalRecord not found
+2024-12-03T17:24:46.746+01:00  INFO 23144 --- [Projet5] [main] c.S.P.c.MedicalRecordController          : Successfully updated medical record for: JohnDoe
+2024-12-03T17:24:46.770+01:00  INFO 23144 --- [Projet5] [main] c.S.P.c.MedicalRecordController          : Successfully retrieved medical record for: JohnDoe
+2024-12-03T17:24:46.778+01:00  INFO 23144 --- [Projet5] [main] c.S.P.c.MedicalRecordController          : Successfully deleted medical record with name: JohnDoe
+2024-12-03T17:24:46.784+01:00  INFO 23144 --- [Projet5] [main] c.S.P.c.MedicalRecordController          : Successfully saved medical record with fullname: John Doe
+2024-12-03T17:24:46.825+01:00  INFO 23144 --- [Projet5] [main] c.S.P.Controller.PersonControllerTest    : Starting PersonControllerTest using Java 23.0.1 with PID 23144 (started by Theotime in C:\DEV\Repo\Projet5)
+2024-12-03T17:24:46.826+01:00  INFO 23144 --- [Projet5] [main] c.S.P.Controller.PersonControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-12-03T17:24:47.013+01:00  INFO 23144 --- [Projet5] [main] c.S.P.Controller.PersonControllerTest    : Started PersonControllerTest in 0.208 seconds (process running for 5.093)
+2024-12-03T17:24:47.028+01:00 ERROR 23144 --- [Projet5] [main] c.S.Projet5.controller.PersonController  : Error updating Person with name NonExistentName: Person not found
+2024-12-03T17:24:47.035+01:00  INFO 23144 --- [Projet5] [main] c.S.Projet5.controller.PersonController  : Successfully deleted Person with name: JohnDoe
+2024-12-03T17:24:47.041+01:00  INFO 23144 --- [Projet5] [main] c.S.Projet5.controller.PersonController  : Successfully retrieved Person with name: JohnDoe
+2024-12-03T17:24:47.048+01:00 ERROR 23144 --- [Projet5] [main] c.S.Projet5.controller.PersonController  : Error deleting Person with name NonExistentName: Person not found
+2024-12-03T17:24:47.054+01:00  INFO 23144 --- [Projet5] [main] c.S.Projet5.controller.PersonController  : Successfully saved Person with Name: John Doe
+2024-12-03T17:24:47.061+01:00  INFO 23144 --- [Projet5] [main] c.S.Projet5.controller.PersonController  : Updated person: Person{firstName='John', lastName='Doe', address='New Address', city='New City', zip=12345, phone='3499329432', email='newemail@example.com'}
+2024-12-03T17:24:47.075+01:00  INFO 23144 --- [Projet5] [main] c.S.Projet5.controller.PersonController  : Successfully retrieved 2 Persons.
+2024-12-03T17:24:47.110+01:00  INFO 23144 --- [Projet5] [main] c.S.Projet5.Projet5ApplicationTests      : Starting Projet5ApplicationTests using Java 23.0.1 with PID 23144 (started by Theotime in C:\DEV\Repo\Projet5)
+2024-12-03T17:24:47.110+01:00  INFO 23144 --- [Projet5] [main] c.S.Projet5.Projet5ApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-12-03T17:24:47.595+01:00  INFO 23144 --- [Projet5] [main] c.S.Projet5.Projet5ApplicationTests      : Started Projet5ApplicationTests in 0.5 seconds (process running for 5.676)
+2024-12-03T17:24:47.665+01:00  INFO 23144 --- [Projet5] [main] c.S.Projet5.service.FireStationService   : Successfully updated FireStation: 123 Main St
+2024-12-03T17:24:47.675+01:00  INFO 23144 --- [Projet5] [main] c.S.Projet5.service.FireStationService   : Successfully saved FireStation with id: FireStation{station='1', address='123 Main Street'}
+2024-12-03T17:24:47.682+01:00  INFO 23144 --- [Projet5] [main] c.S.Projet5.service.FireStationService   : Successfully retrieved 2 FireStations.
+2024-12-03T17:24:47.684+01:00 ERROR 23144 --- [Projet5] [main] c.S.Projet5.service.FireStationService   : FireStation not found for address: Non-existent address
+2024-12-03T17:24:47.688+01:00 ERROR 23144 --- [Projet5] [main] c.S.Projet5.service.FireStationService   : Failed to delete FireStation for address: 123 Main St
+
+java.lang.RuntimeException: Database error
+	at com.SafetyNet.Projet5.repository.FireStationRepository.deleteByAddress(FireStationRepository.java:33) ~[classes/:na]
+	at com.SafetyNet.Projet5.service.FireStationService.deleteByAddress(FireStationService.java:47) ~[classes/:na]
+	at com.SafetyNet.Projet5.Service.FireStationServiceTest.deleteByAddressExceptionWhenRepositoryThrowsError(FireStationServiceTest.java:70) ~[test-classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728) ~[junit-platform-commons-1.10.3.jar:1.10.3]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:50) ~[surefire-junit-platform-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184) ~[surefire-junit-platform-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148) ~[surefire-junit-platform-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122) ~[surefire-junit-platform-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) ~[surefire-booter-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) ~[surefire-booter-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) ~[surefire-booter-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) ~[surefire-booter-3.0.0.jar:3.0.0]
+
+2024-12-03T17:24:47.693+01:00  INFO 23144 --- [Projet5] [main] c.S.Projet5.service.FireStationService   : Successfully retrieved FireStation by address: 123 Main St
+2024-12-03T17:24:47.696+01:00  INFO 23144 --- [Projet5] [main] c.S.Projet5.service.FireStationService   : Successfully deleted FireStation for address: 123 Main St
+2024-12-03T17:24:47.754+01:00  INFO 23144 --- [Projet5] [main] c.S.P.service.MedicalRecordService       : Successfully retrieved 2 medical records.
+2024-12-03T17:24:47.755+01:00  INFO 23144 --- [Projet5] [main] c.S.P.service.MedicalRecordService       : Successfully deleted medical record with name: JohnDoe
+2024-12-03T17:24:47.761+01:00  INFO 23144 --- [Projet5] [main] c.S.P.service.MedicalRecordService       : Successfully retrieved medical record with name: JohnDoe
+2024-12-03T17:24:47.763+01:00  INFO 23144 --- [Projet5] [main] c.S.P.service.MedicalRecordService       : Successfully updated medical record for FullName: John Doe
+2024-12-03T17:24:47.765+01:00 ERROR 23144 --- [Projet5] [main] c.S.P.service.MedicalRecordService       : Medical record with name JaneDoe not found.
+2024-12-03T17:24:47.769+01:00  INFO 23144 --- [Projet5] [main] c.S.P.service.MedicalRecordService       : Successfully saved medicalRecord with FullName: MedicalRecord{firstName='John', lastName='Doe', birthdate='01/01/1980', medications=[Med1], allergies=[Allergy1]}
+2024-12-03T17:24:47.776+01:00  INFO 23144 --- [Projet5] [main] c.S.Projet5.service.PersonService        : Successfully retrieved 2 persons.
+2024-12-03T17:24:47.780+01:00  INFO 23144 --- [Projet5] [main] c.S.Projet5.service.PersonService        : Successfully retrieved Person by name: JohnDoe
+2024-12-03T17:24:47.783+01:00  INFO 23144 --- [Projet5] [main] c.S.Projet5.service.PersonService        : Successfully deleted Person by name: JohnDoe
+2024-12-03T17:24:47.785+01:00  INFO 23144 --- [Projet5] [main] c.S.Projet5.service.PersonService        : Successfully saved Person: Person{firstName='John', lastName='Doe', address='null', city='null', zip=0, phone='null', email='null'}
+2024-12-03T17:24:47.788+01:00 ERROR 23144 --- [Projet5] [main] c.S.Projet5.service.PersonService        : Delete failed: name is empty.
+2024-12-03T17:24:47.791+01:00  INFO 23144 --- [Projet5] [main] c.S.Projet5.service.PersonService        : Successfully updated Person: Person{firstName='John', lastName='Doe', address='New Address', city='New City', zip=12345, phone='1234567890', email='email@example.com'}
+2024-12-03T17:24:47.793+01:00 ERROR 23144 --- [Projet5] [main] c.S.Projet5.service.PersonService        : Person not found for name: NonExistent
+2024-12-03T17:25:45.335+01:00  INFO 12072 --- [Projet5] [main] c.S.P.C.FireStationControllerTest        : Starting FireStationControllerTest using Java 23.0.1 with PID 12072 (started by Theotime in C:\DEV\Repo\Projet5)
+2024-12-03T17:25:45.337+01:00  INFO 12072 --- [Projet5] [main] c.S.P.C.FireStationControllerTest        : No active profile set, falling back to 1 default profile: "default"
+2024-12-03T17:25:47.404+01:00  INFO 12072 --- [Projet5] [main] c.S.P.C.FireStationControllerTest        : Started FireStationControllerTest in 2.507 seconds (process running for 3.86)
+2024-12-03T17:25:47.762+01:00  INFO 12072 --- [Projet5] [main] c.S.P.controller.FireStationController   : Successfully updated FireStation for address: FireStation{station='2', address='NewAddress'}
+2024-12-03T17:25:47.905+01:00 ERROR 12072 --- [Projet5] [main] c.S.P.controller.FireStationController   : Update failed: FireStation with address NonExistentAddress: FireStation not found not found.
+2024-12-03T17:25:47.915+01:00  INFO 12072 --- [Projet5] [main] c.S.P.controller.FireStationController   : Successfully saved FireStation with address: test address
+2024-12-03T17:25:47.924+01:00 ERROR 12072 --- [Projet5] [main] c.S.P.controller.FireStationController   : Failed to delete FireStation for address: NonExistentAddress
+
+java.lang.IllegalArgumentException: FireStation not found
+	at com.SafetyNet.Projet5.service.FireStationService.deleteByAddress(FireStationService.java:45) ~[classes/:na]
+	at com.SafetyNet.Projet5.controller.FireStationController.deleteByAddress(FireStationController.java:59) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:936) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:596) ~[tomcat-embed-core-10.1.30.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:72) ~[spring-test-6.1.13.jar:6.1.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.30.jar:6.0]
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:165) ~[spring-test-6.1.13.jar:6.1.13]
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132) ~[spring-test-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.test.web.servlet.setup.MockMvcFilterDecorator.doFilter(MockMvcFilterDecorator.java:151) ~[spring-test-6.1.13.jar:6.1.13]
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132) ~[spring-test-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.test.web.servlet.setup.MockMvcFilterDecorator.doFilter(MockMvcFilterDecorator.java:151) ~[spring-test-6.1.13.jar:6.1.13]
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132) ~[spring-test-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.test.web.servlet.setup.MockMvcFilterDecorator.doFilter(MockMvcFilterDecorator.java:151) ~[spring-test-6.1.13.jar:6.1.13]
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132) ~[spring-test-6.1.13.jar:6.1.13]
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:201) ~[spring-test-6.1.13.jar:6.1.13]
+	at com.SafetyNet.Projet5.Controller.FireStationControllerTest.testDeleteFireStationByAddressFail(FireStationControllerTest.java:71) ~[test-classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728) ~[junit-platform-commons-1.10.3.jar:1.10.3]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:50) ~[surefire-junit-platform-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184) ~[surefire-junit-platform-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148) ~[surefire-junit-platform-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122) ~[surefire-junit-platform-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) ~[surefire-booter-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) ~[surefire-booter-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) ~[surefire-booter-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) ~[surefire-booter-3.0.0.jar:3.0.0]
+
+2024-12-03T17:25:47.937+01:00  INFO 12072 --- [Projet5] [main] c.S.P.controller.FireStationController   : Successfully retrieved 2 FireStations.
+2024-12-03T17:25:47.959+01:00  INFO 12072 --- [Projet5] [main] c.S.P.controller.FireStationController   : Successfully deleted FireStation for address: addressTest
+2024-12-03T17:25:47.965+01:00  INFO 12072 --- [Projet5] [main] c.S.P.controller.FireStationController   : Successfully retrieved FireStation for address: test
+2024-12-03T17:25:48.039+01:00  INFO 12072 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : Starting GlobalControllerTest using Java 23.0.1 with PID 12072 (started by Theotime in C:\DEV\Repo\Projet5)
+2024-12-03T17:25:48.040+01:00  INFO 12072 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-12-03T17:25:48.227+01:00  INFO 12072 --- [Projet5] [main] c.S.P.Controller.GlobalControllerTest    : Started GlobalControllerTest in 0.214 seconds (process running for 4.683)
+2024-12-03T17:25:48.308+01:00  INFO 12072 --- [Projet5] [main] c.S.P.C.MedicalRecordControllerTest      : Starting MedicalRecordControllerTest using Java 23.0.1 with PID 12072 (started by Theotime in C:\DEV\Repo\Projet5)
+2024-12-03T17:25:48.309+01:00  INFO 12072 --- [Projet5] [main] c.S.P.C.MedicalRecordControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2024-12-03T17:25:48.488+01:00  INFO 12072 --- [Projet5] [main] c.S.P.C.MedicalRecordControllerTest      : Started MedicalRecordControllerTest in 0.197 seconds (process running for 4.946)
+2024-12-03T17:25:48.498+01:00 ERROR 12072 --- [Projet5] [main] c.S.P.c.MedicalRecordController          : Error deleting medical record with name NonExistentName: MedicalRecord not found
+2024-12-03T17:25:48.508+01:00  INFO 12072 --- [Projet5] [main] c.S.P.c.MedicalRecordController          : Successfully retrieved 1 medical records.
+2024-12-03T17:25:48.532+01:00 ERROR 12072 --- [Projet5] [main] c.S.P.c.MedicalRecordController          : Error updating medical record with name NonExistentName: MedicalRecord not found
+2024-12-03T17:25:48.539+01:00  INFO 12072 --- [Projet5] [main] c.S.P.c.MedicalRecordController          : Successfully updated medical record for: JohnDoe
+2024-12-03T17:25:48.561+01:00  INFO 12072 --- [Projet5] [main] c.S.P.c.MedicalRecordController          : Successfully retrieved medical record for: JohnDoe
+2024-12-03T17:25:48.566+01:00  INFO 12072 --- [Projet5] [main] c.S.P.c.MedicalRecordController          : Successfully deleted medical record with name: JohnDoe
+2024-12-03T17:25:48.572+01:00  INFO 12072 --- [Projet5] [main] c.S.P.c.MedicalRecordController          : Successfully saved medical record with fullname: John Doe
+2024-12-03T17:25:48.608+01:00  INFO 12072 --- [Projet5] [main] c.S.P.Controller.PersonControllerTest    : Starting PersonControllerTest using Java 23.0.1 with PID 12072 (started by Theotime in C:\DEV\Repo\Projet5)
+2024-12-03T17:25:48.609+01:00  INFO 12072 --- [Projet5] [main] c.S.P.Controller.PersonControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-12-03T17:25:48.824+01:00  INFO 12072 --- [Projet5] [main] c.S.P.Controller.PersonControllerTest    : Started PersonControllerTest in 0.23 seconds (process running for 5.28)
+2024-12-03T17:25:48.840+01:00 ERROR 12072 --- [Projet5] [main] c.S.Projet5.controller.PersonController  : Error updating Person with name NonExistentName: Person not found
+2024-12-03T17:25:48.846+01:00  INFO 12072 --- [Projet5] [main] c.S.Projet5.controller.PersonController  : Successfully deleted Person with name: JohnDoe
+2024-12-03T17:25:48.850+01:00  INFO 12072 --- [Projet5] [main] c.S.Projet5.controller.PersonController  : Successfully retrieved Person with name: JohnDoe
+2024-12-03T17:25:48.855+01:00 ERROR 12072 --- [Projet5] [main] c.S.Projet5.controller.PersonController  : Error deleting Person with name NonExistentName: Person not found
+2024-12-03T17:25:48.860+01:00  INFO 12072 --- [Projet5] [main] c.S.Projet5.controller.PersonController  : Successfully saved Person with Name: John Doe
+2024-12-03T17:25:48.866+01:00  INFO 12072 --- [Projet5] [main] c.S.Projet5.controller.PersonController  : Updated person: Person{firstName='John', lastName='Doe', address='New Address', city='New City', zip=12345, phone='3499329432', email='newemail@example.com'}
+2024-12-03T17:25:48.882+01:00  INFO 12072 --- [Projet5] [main] c.S.Projet5.controller.PersonController  : Successfully retrieved 2 Persons.
+2024-12-03T17:25:48.913+01:00  INFO 12072 --- [Projet5] [main] c.S.Projet5.Projet5ApplicationTests      : Starting Projet5ApplicationTests using Java 23.0.1 with PID 12072 (started by Theotime in C:\DEV\Repo\Projet5)
+2024-12-03T17:25:48.914+01:00  INFO 12072 --- [Projet5] [main] c.S.Projet5.Projet5ApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-12-03T17:25:49.390+01:00  INFO 12072 --- [Projet5] [main] c.S.Projet5.Projet5ApplicationTests      : Started Projet5ApplicationTests in 0.49 seconds (process running for 5.846)
+2024-12-03T17:25:49.462+01:00  INFO 12072 --- [Projet5] [main] c.S.Projet5.service.FireStationService   : Successfully updated FireStation: 123 Main St
+2024-12-03T17:25:49.472+01:00  INFO 12072 --- [Projet5] [main] c.S.Projet5.service.FireStationService   : Successfully saved FireStation with id: FireStation{station='1', address='123 Main Street'}
+2024-12-03T17:25:49.479+01:00  INFO 12072 --- [Projet5] [main] c.S.Projet5.service.FireStationService   : Successfully retrieved 2 FireStations.
+2024-12-03T17:25:49.482+01:00 ERROR 12072 --- [Projet5] [main] c.S.Projet5.service.FireStationService   : FireStation not found for address: Non-existent address
+2024-12-03T17:25:49.485+01:00 ERROR 12072 --- [Projet5] [main] c.S.Projet5.service.FireStationService   : Failed to delete FireStation for address: 123 Main St
+
+java.lang.RuntimeException: Database error
+	at com.SafetyNet.Projet5.repository.FireStationRepository.deleteByAddress(FireStationRepository.java:33) ~[classes/:na]
+	at com.SafetyNet.Projet5.service.FireStationService.deleteByAddress(FireStationService.java:47) ~[classes/:na]
+	at com.SafetyNet.Projet5.Service.FireStationServiceTest.deleteByAddressExceptionWhenRepositoryThrowsError(FireStationServiceTest.java:70) ~[test-classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728) ~[junit-platform-commons-1.10.3.jar:1.10.3]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.10.3.jar:5.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) ~[junit-platform-launcher-1.10.3.jar:1.10.3]
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:50) ~[surefire-junit-platform-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184) ~[surefire-junit-platform-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148) ~[surefire-junit-platform-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122) ~[surefire-junit-platform-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) ~[surefire-booter-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) ~[surefire-booter-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) ~[surefire-booter-3.0.0.jar:3.0.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) ~[surefire-booter-3.0.0.jar:3.0.0]
+
+2024-12-03T17:25:49.491+01:00  INFO 12072 --- [Projet5] [main] c.S.Projet5.service.FireStationService   : Successfully retrieved FireStation by address: 123 Main St
+2024-12-03T17:25:49.495+01:00  INFO 12072 --- [Projet5] [main] c.S.Projet5.service.FireStationService   : Successfully deleted FireStation for address: 123 Main St
+2024-12-03T17:25:49.589+01:00  INFO 12072 --- [Projet5] [main] c.S.P.service.MedicalRecordService       : Successfully retrieved 2 medical records.
+2024-12-03T17:25:49.591+01:00  INFO 12072 --- [Projet5] [main] c.S.P.service.MedicalRecordService       : Successfully deleted medical record with name: JohnDoe
+2024-12-03T17:25:49.598+01:00  INFO 12072 --- [Projet5] [main] c.S.P.service.MedicalRecordService       : Successfully retrieved medical record with name: JohnDoe
+2024-12-03T17:25:49.601+01:00  INFO 12072 --- [Projet5] [main] c.S.P.service.MedicalRecordService       : Successfully updated medical record for FullName: John Doe
+2024-12-03T17:25:49.604+01:00 ERROR 12072 --- [Projet5] [main] c.S.P.service.MedicalRecordService       : Medical record with name JaneDoe not found.
+2024-12-03T17:25:49.606+01:00  INFO 12072 --- [Projet5] [main] c.S.P.service.MedicalRecordService       : Successfully saved medicalRecord with FullName: MedicalRecord{firstName='John', lastName='Doe', birthdate='01/01/1980', medications=[Med1], allergies=[Allergy1]}
+2024-12-03T17:25:49.615+01:00  INFO 12072 --- [Projet5] [main] c.S.Projet5.service.PersonService        : Successfully retrieved 2 persons.
+2024-12-03T17:25:49.617+01:00  INFO 12072 --- [Projet5] [main] c.S.Projet5.service.PersonService        : Successfully retrieved Person by name: JohnDoe
+2024-12-03T17:25:49.620+01:00  INFO 12072 --- [Projet5] [main] c.S.Projet5.service.PersonService        : Successfully deleted Person by name: JohnDoe
+2024-12-03T17:25:49.623+01:00  INFO 12072 --- [Projet5] [main] c.S.Projet5.service.PersonService        : Successfully saved Person: Person{firstName='John', lastName='Doe', address='null', city='null', zip=0, phone='null', email='null'}
+2024-12-03T17:25:49.626+01:00 ERROR 12072 --- [Projet5] [main] c.S.Projet5.service.PersonService        : Delete failed: name is empty.
+2024-12-03T17:25:49.628+01:00  INFO 12072 --- [Projet5] [main] c.S.Projet5.service.PersonService        : Successfully updated Person: Person{firstName='John', lastName='Doe', address='New Address', city='New City', zip=12345, phone='1234567890', email='email@example.com'}
+2024-12-03T17:25:49.630+01:00 ERROR 12072 --- [Projet5] [main] c.S.Projet5.service.PersonService        : Person not found for name: NonExistent
