@@ -1,6 +1,8 @@
 package com.SafetyNet.Projet5.model;
 
 
+import java.util.Objects;
+
 public class Person {
 
     private String firstName;
@@ -109,6 +111,7 @@ public class Person {
     public String getFullName() {
         return getFirstName() + " " + getLastName();
     }
+
 }
 
 
