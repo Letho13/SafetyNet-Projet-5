@@ -93,7 +93,14 @@ public class GlobalServiceTest {
         assertEquals(1, result.getNombreEnfants());
 
         assertEquals(2, result.getPersonFireStationDTOList().size());
-
+        assertTrue(result.getPersonFireStationDTOList().stream()
+                .anyMatch(personFireStationDTO ->
+                        personFireStationDTO.getFirstName().equals("John")
+                                && personFireStationDTO.getLastName().equals("Doe")));
+        assertFalse(result.getPersonFireStationDTOList().stream()
+                .anyMatch(personFireStationDTO ->
+                        personFireStationDTO.getFirstName().equals("Palipalo")
+                                && personFireStationDTO.getLastName().equals("Doe")));
     }
 
     @Test
